@@ -1,0 +1,637 @@
+============================================
+   Advanced Engine Required: GZDoom 2.4.x+ 
+============================================
+
+NOTICE: We're working to resolve a lack of proper crediting. This has been ongoing for some time, but we are still missing several. Please see the uncredited assets and contact us if any of them belong to you.
+
+Title: QuakeStyle Unbound
+Filenames: qsunbound.pk3 (including 0Sprites.wad, 1base.wad, 2tilt.wad, 3core.wad, 4snd.wad, and 5fonts.wad, plus text and source files)
+Authors: Jay "Silent Zorah" Reichard (main and original author of QuakeStyle), Xterra (modder, continuation author of QuakeStyle ZX, and current co-author), and Brian "That Blind Guy" Willis (modder, beta tester for QuakeStyle ZX, and current co-author)
+Email Addresses: silentzorah@gmail.com (Jay), cockatiel41@yahoo.com (Xterra), briancwillis2010@yahoo.com (Brian)
+Misc. Author Info: We ARE miscellaneous. Whatever that means. Unbound refers to the broadened scope in comparison to the previous two mods.
+
+Description: QuakeStyle is a gameplay mod for DOOM which adds larger enemy variety as well as new weaponry, ammo and powerups galore. Most of the weapons and new powerups are based on ones from the Quake series, hence the name.
+			 ZX is a further messed-about with version of Reichard's prior work QuakeStyle with additional enemies, powerups and weapons as well as a much more DOOM-flavored gameplay style, with the net result of an enhanced DOOM experience.
+			 Unbound extends the design philosophy of ZX to bring in yet more weapons, enemies and powerups, as well as create alternative fire options for all weapons, provide greater challenge, and overall make the player more versatile, introducing a few elements of Unreal and Painkiller into the mix. Additionally, Unbound offers a set of modular expansion packs to add further diversity and functionality to the mod for those who wish to use it while not getting in the way of those who don't. The intent of Unbound is to later implement it into a full-scale custom map set, but a gameplay-only version will remain the top priority, as this is not certain.
+
+Additional Credits to: 
+			  Many, many fellow DOOMers for many sprites and sounds, much inspiration and some code (See specific credits below)
+			  Valve, Capcom, and Epic Games for sounds
+			  SilentZorah, Fisk Zinnemann, Bathy Salts, TehNems, Dave, Niecey, and BigBenkei for beta testing
+			  Everyone who participated in making the Monster and Weapon Resource Wads, as well as Realm667
+			  id Software for Quake, Quake II, Quake III, Quake IV, DOOM, and sprites and sounds.
+			  Bethesda for DOOM 2016, and some sounds
+			  Raven Software for Quake IV and some sounds
+			  The good folks at zdoom.org's forums who've put up with our insane (and sometimes inane) questions
+			  Randi Heit for the godlike ZDoom (may it rest in peace)
+			  Graf Zahl for DECORATE and GZDoom
+			  DRD Team for the repository builds of ZDoom, QZDoom and GZDoom
+			  Per Kristian Risvik for the 32KHz DOOM sounds and some sprites
+			  RuneStorm for sounds and inspiration (they're behind the Ballistic Weapons mod for UT2004 where many of the new sounds were lifted from)
+			  Pretty much anybody who's written anything useful for the ZDoom wiki (lifesavers, you are)
+			  You, for actually wasting your time playing our little mod
+
+================================================================
+
+* Play Information *
+
+Game: DOOM, DOOM II, Final Doom
+Episode and Level # : All
+Single Player: Yes, recommended
+Cooperative 2-4 Player: Yes, also recommended
+Deathmatch 2-4 Player: Yes, but not the mod's focus. We expect that this would be horribly unbalanced in its current state.
+Difficulty Settings: Yes, eight in total. Five rebalanced standard settings and three special challenge modes.
+New Sounds: Yes
+New Graphics: Yes
+New Music: No
+Demos Replaced: None
+
+* Construction *
+
+Base: Jay Reichard's "QuakeStyle" mod for ZDoom 2.5.x and derivatives
+Editors used: DeepSea, Adobe Photoshop, MSPaint, GameMaker Studio (namely the sprite editor), Notepad, Notepad++, ACC, GDCC-ACC, Paint Shop Pro, Audacity, XWE, SLumpEd, Slade 3, WinRAR (surprisingly useful for PK3 files...)
+Known Bugs: 
+-The pistol misbehaves if dropped or taken away; to prevent such a thing happening the pistol is undroppable.
+-Be careful with the "give all", "give megasphere", "give armor" or "give everything" console cheats- you'll get stock blue armor with a misaligned and incorrect icon if you don't already have better armor. Try giving yourself SZ_Megasphere, SZ_BlueArmor, or SZ_RedArmor first.
+-Certain images and sprites may look a bit off with the mod's color palette, specifically ones utilizing the lightest blues in the palette. The mod's color palette replaces the lightest, washed-out bluegrays with vivid sky blues. As such, some things may appear slightly (or not-so-slightly) off. Light reds will be rendered as shades of yellow, orange and scarlet. This also applies to some sky images-- Plutonia in particular.
+
+* Class Information *
+
+There are 16 classes total. Every class can have up to 50 weapons. With the exception of the "vanilla" Doomguy class, each has a unique starting weapon that replaces one of the normal ones. Each class also has different stats such as size, speed, jump height, and specific damage output and defense for certain attacks. Some also feature special abilities like full health regeneration, poison resistance, or getting more ammo from pickups. See the list below for more details.
+
+Doomguy (Base Class): This is the basic, almost totally unaltered player character, preserved for those who would like to play as a plain ol' Doomguy. The only difference is he gets green armor, a knife replacing fists (applies to all classes), and the improved air control.
+Unique Weapon: None
+Attack Power: Default
+Defense: Default
+Special Attributes: None. He has all default stats, no strengths or weaknesses, or anything along those lines.
+
+Veteran: A general enhancement of the original Doomguy, inspired by Wolfenstein. He can jump a bit higher and resist a wide variety of attacks.
+Unique Weapon: Twin Pistols (Faster fire rate but less damage than the Pistol. Alt-fire throws a hand grenade. More grenades can be found in boxes of bullets, nails, grenades, and rockets. Two grenades are given in each backpack. You can carry five, and this does not increase. Combo fire throws a holoknife.)
+Attack Power: Default
+Defense: Demonic +15%, Fire +15%
+Special Attributes: None
+
+Hunter: A more lightweight complement to the Ranger. Fast, but fragile.
+Unique Weapon: Ghost (Silenced shotgun. Can perform sneak crits, is slightly more accurate, and doesn't alert monsters, but damage is the same. Combo fire throws a holographic target dummy to attract monsters. This will explode after ~15 seconds. It can be used infinitely, but only one can be in play at a time.)
+Attack Power: All +20%
+Defense: All +25%
+Special Attributes: None
+
+Ranger: Big and tough, but not very fast or agile.
+Unique Weapon: Kestrel (The Heavy Assault Rifle from DOOM 2016, reimagined. Lower fire rate, but much higher damage and perfect accuracy. Alt-fire fires homing mini-missiles instead of grenades.)
+Attack Power: Default
+Defense: All +12.5%
+Special Attributes: Sharpshooter (Accuracy +35%, some weapons have perfect accuracy, but lose fire rate)
+
+Specialist: Movement is the name of the game with this one. He's got a little extra defense to cope with his size.
+Unique Weapon: Vance (An MP7 SMG inspired by Half-Life 2. Increased fire rate and damage. Alt-fire fires mine darts instead of birdshot. Combo fire performs the Gravity Gun's primary fire.)
+Attack Power: Default
+Defense: +5%
+Special Attributes: Acrobatics (Able to dash, air-dash, and double-jump, dashing gives 6% charge to the Static Cannon)
+
+Gunslinger: A skilled exhibition shooter with a fondness for guns new and old.
+Unique Weapon: Wastelander (A single-barrel, break-action shotgun. Much slower and less accurate than the Shotgun, but it packs a hell of a punch! Alt-fire produces a spread of non-superheated flak shards that can bounce off surfaces. Combo fire Bioshock-esque electro-buck.)
+Attack Power: Bullets +25%, Plasmatic +25%, Explosives -35%, Energy -35%
+Defense: All +15%
+Special Attributes: None
+
+Sniper: Fast, small, hard to detect. Beware his miserable defense.
+Unique Weapon: Boone (Semi-automatic, silenced sniper rifle. Uses less ammo and fires much faster but does less damage. Sneak crits are possible, scoped in or otherwise.)
+Attack Power: Default
+Defense: All -30%
+Special Attributes: Stealth Cloak (Weakened Blur Sphere effect while standing still), Suppressor Pistol alt ammo consumption -50%, Knife can perform sneak crits like the Suppressor Pistol alt-fire.
+
+Heavy: A lumbering mountain of man. Absorbs enemy fire like a sponge, but moves very slowly and can barely jump at all.
+Unique Weapon: Sasha (A powerful plasmatic chaingun. Decreased accuracy, but shots penetrate one target and can hit another. No combo fire.)
+Attack Power: Default
+Defense: All +12.5%
+Special Attributes: Outsmarting Boolets (Brief invulnerability period after taking damage), Speed Booster (A 5-second burst to speed and jump height with a 30-second recharge time), Dash.
+
+Elite: A cybernetic supersoldier with heightened defence but reduced agility. 
+Unique Weapon: UAC Precision Rifle (A finely-tuned laser rifle. Primary fire rips like a Railgun, alt-fire is a beam shotgun, combo fires a silenced plasma ball that can perform sneak crits.)
+Attack Power: Default
+Defense: All +10%
+Special Attributes: I Am The Machine (Knockback and Poison Immunity)
+
+Technician: The master of plasma! He can melt his foes with pure energy, but has all the punching strength of a wet sock.
+Unique Weapon: Artemis (A plasma pistol with infinite ammo, inspired by DOOM 2016's pistol. Alt-fire is a three-round burst-fire shotgun spread. Combo fires the alt-fire plasma pellets with the fire rate of the Plasma Rifle.)
+Attack Power: Energy +25%, Melee -35%
+Defense: All -12.5%, Energy +25%, Melee -47.5%
+Special Attributes: None
+
+Gunner: More versatile and agile than a Heavy, and with the same dash, but with less speed and no invulnerability period.
+Unique Weapon: Ripley (A custom HAMR with greater fire rate. Alt-fire is a flamethrower instead of a plasma torch. No combo fire.)
+Attack Power: Default
+Defense: All +20%, Bullets +40%
+Special Attributes: HP +25. Soldier of Fortune (Find more ammo in mags and boxes), Speed Booster (A 5-second burst of speed with a 30-second recharge time).
+
+Marksman: A light and fragile fighter, but he knows how to work that overpenetration to his advantage.
+Unique Weapon: Rapier (A DRM whose shots rip through targets like a Railgun but do less damage. Alt-fire is a roundhouse kick that damages everyone around him. Combo fire sacrifices the ripping effect of the plasmatic rounds for automatic fire.)
+Attack Power: Default
+Defense: All -12.5%
+Special Attributes: Crack Shot (40% more bullet puffs fired from overpenetrating weapons, rippers do 25% more damage), custom Railgun (Zoomed shots gain an explosive edge)
+
+Medic: Not the best suited for combat, but he is no pushover.
+Unique Weapon: Schabbs (A needle gun that perforates targtes with a swarm of projectiles. Alt-fire launches three super-heated needles at once. Combo wildly sprays flechettes.)
+Attack Power: Default
+Defense: All -12.5%
+Special Attributes: Triage (Full Health Regen, Poison Immunity).
+
+Demolition: Trained in the use of explosives, he has been blown up so many times that he seems to have built up a natural resistance to it. Be warned, he is a bit slow and has little in the way of added defense.
+Unique Weapon: Trident (A homing missile launcher that fires in bursts of three. Alt-fire is a napalm shotgun. Combo releases a napalm rocket that leaves flames in its wake.)
+Attack Power: Explosives +25%, Energy -35%, Unmaker -50%
+Defense: Explosives +25%, Fire +50%
+Special Attributes: Blast Shield (No self damage).
+
+Berserker: Ever wondered how well a melee-focused class would work in Doom? Here ya go! Fast and tanky, but sucks at range.
+Unique Weapon: Ironside (A mace and shield that strikes quickly from a longer distance than the Axe. Alt-fire puts up a shield, granting invulnerability at the cost of speed. Swinging the mace while the shield is up is faster, but weaker. Combo releases a grounded fire wave at the cost of health.)
+Attack Power: Melee +80%, Bullets -35%, Nails -35%
+Defense: All +15%, Melee +35%, Explosives -35%, Self -100%
+Special Attributes: None
+
+Slipgater: Because one id Software protagonist isn't enough and two is too low. Besides, the mod is called QuakeStyle! He behaves very much like the Marine, but is slightly more agile.
+Unique Weapon: ETF Rifle (A double-barrel nail carbine that fires lava nails at a reasonable rate. Alt-fire is a zoomed double-tap. Pressing reload toggles ETF Mode. When active, both primary and alt-fire will produce explosive-tipped flechettes that force splash damage.)
+Attack Power: Nails +25%
+Defense: Nails +25%, Bullets -15%, Demonic -15%
+Special Attributes: Big Balls (-20% number of pellets fired from shotguns with roughly +50% damage)
+
+* Weapon Information *
+
+See Class Information above for details on unique weapons.
+
+Knife: An improvement over the fists in the melee department. Stealthy and has slightly improved reach over the fists.
+Alt: Sonic Slash - Swing the knife so hard it causes a deadly, ripping sonic distortion in the air. Slower, and will alert the monsters.
+Combo: Guard - High chance to block incoming damage.
+
+Axe: For the Lizzie Borden wannabes. Slowest, yet most-powerful quiet melee weapon. Has the longest reach of any melee weapon, aside from the uniques.
+Alt: Lunge Attack - Charge forward a few steps and strike, causing enemies to splatter across the room on any lethal impact. The swing itself is faster than normal, but raising the axe for another swing is very slow.
+Combo: Mighty Boot - A fast kick performed while the Axe is pulled back.
+
+Chainsaw: A huge, bloodstained DOUBLE-BLADED chainsaw. I've got three words for you: "RIP AND TEAR".
+Alt: Overdrive - Rapidly burn Cells to deal twice the damage per hit at twice the speed.
+Combo: Razor-Jackoff - Lower the saw and send out a sawblade that rips through targets.
+
+Pistol: Your standard sidearm. Fires a tiny bit slower than the vanilla Pistol, but it has no damage RNG and hits quite hard.
+Alt: Aimed Shot - Zoom in a little and take careful shots. These are slower shots, but much more accurate and a bit more powerful.
+Combo: AP Rounds - Weaker shots with restored damage RNG, but they can sail through a crowd and damage all in their way.
+
+Burst Pistol: A pistol that fires in three-round bursts. Handy in a pinch.
+Alt: Ratshot - Spray a massively inaccurate shower of 60 tiny pellets.
+Combo: Quad Tap - A four-round burst of bullets followed by ratshot.
+
+Blaster: A neat little gun that shoots pretty yellow plasma bolts and never needs ammo. Not terribly strong, though.
+Alt: Charged Shot - Like the Mega-Buster, but not quite as cool. Charge up a shot to put down weaker enemies in a single hit. Charge-up time is a factor, but it's still unlimited.
+Combo: Laser Cutter - A short-range, continuous beam.
+
+Laser Pistol: An accurate little laser gun. Has no spread, but it doesn't pack much power. Primary fire is unlimited.
+Alt: Cobalt Beam - Swirly blue laser that does much more damage and even overpenetrates. Uses two Cells, and firing speed is reduced.
+Combo: Ego Buster - Red core, blue swirl. Uses three Cells, packs a decent punch, rips, and makes Xterra "happy."
+
+Nail Pistol: A powerful magnum that spews big metal darts. Slow-firing and a little inaccurate, though.
+Alt: Laser Sight - Emit a teal dot. When this is active, primary fire becomes a perfectly-accurate hitscan with no damage RNG.
+Combo: Dupli-Nail - One large dart that splits into 16 small ones. Uses five Nails.
+
+Revolver: Fan that hammer, cowboy. A .357 which, somehow, feeds from standard bullets. Powerful, but must reload oafter six shots.
+Alt: Tactical Knife - A quick melee slash. Nuff said.
+Combo: Wadcutters - By the power of technobabble, turn the bullets you fire into solid, heavy cylinders of hot, American lead. Problem-- the wadcutters have shit for range (literally-- they have a range cutoff), and are utterly useless against anything that would resist a rocket blast. What they DO work on, though, they hit hard.
+
+Suppressor Pistol: A plain-jane pistol with a little tube screwed on its barrel so it won't be so noisy.
+Alt: Lucky 7 - Compress 7 bullets into one! Fire rate is slowed, and you'll have to contend with Super Shotgun-level recoil, but smaller monsters that haven't engaged a target will die in one hit from this.
+Combo: Sonic Boom - A more powerful sonic clash with greater range. Consumes 21 Bullets.
+
+Rifle: An accurate, overpenetrating .308 semiautomatic.
+Alt: Poke! Poke! - Ram that bayonet into demon flesh when they get too close!
+Combo: Two-Piece - Follow up a melee strike with a devastating, close-range shot.
+
+Sniper Rifle: A .50 BMG bolt-action rifle that packs a nasty punch! The undisciplined shooter will find this gun has reasonable speed, but miserable accuracy. However...
+Alt: Telescopic Infrared Scope - Get a closer look at your target! User's choice of 2x or 5x zoom that offers perfect accuracy and intense penetration in addition to being able to see in the dark. Reload key zooms the weapon out.
+
+Shotgun: A pump-action shotgun. Has the tightest spread of the shotguns- so much so it's useful at medium and even long range.
+Alt: Steel Slug - A single, overpenetrating chunk of steel! Lower overall damage. This serves as a weaker alternative to the Rifle with much more abundant ammo.
+Combo: Ice Ice Shotty - Fire an icy crystal that explodes into riping fragments that can freeze a crowd. Uses three Shells.
+
+Automatic Shotgun: A fully-automatic shotgun. Wider spread and less damage per shot than the pump shotguns.
+Alt: Flechette Storm - Fire a spread of razor-tipped flechettes that have a habit of ripping through baddies. Two Shells a pop-- and AWFUL against bosses.
+Combo: Splodey Slug - Slugs that go boom! What more do you need? Uses three Shells.
+
+Machinegun: A compact automatic carbine. High fire rate but relatively low damage.
+Alt: MasterKey - Those .45 ACPs not cutting it for you? How about an underslung 12 gauge? Weakest shotgun of the bunch, but a fair option at point-blank range.
+Combo: Double-Action - Fire both primary and alt-fire at the same time! Be mindful of runaway fire, as the primary will continue for eight shots even if you release the trigger.
+
+HyperBlaster: A plasma gun that is very energy-efficient, using only one Cell for every two shots fired, but lacks accuracy and rate-of-fire.
+Alt: Auto-Mega-Blaster - The name says it all. Same kind of shot as the Blaster alt, but half the fire rate of the Hyper Blaster. This also uses Cells, two per shot.
+Combo: Particle Beam - Like the Laser Cutter, but long er range and burns Cells.
+
+Assault Rifle: An automatic rifle that runs the middle ground between the Chaingun and the Machinegun. Powerful and accurate, but fire rate is lacking.
+Alt: M203, I Choose You - It only makes sense to stick a grenade launcher to an assault rifle, so here ya go! Same projectile as the Grenade Launcher's primary, but much slower.
+Combo: Autofire - Miserable accuracy, but slings lead downrange with the best of them.
+
+Nailgun: A twin-barreled automatic weapon that spews nails.
+Alt: Lava Nails - More damage, doubled ammo consumption, pretty orange glow! Keep out of reach of Slipgaters.
+Combo: Needle Storm - Speed up those barrels and fire a pair of faster, weaker darts. Be warned, the increase in fire rate and power, in addition to costing two Nails per shot, will shove you backwards over time.
+
+"Spearhead" Super Nailgun: The bastard child of a Nailgun and a Shotgun. Fires ten nails in a very wide spread.
+Alt: Heavy Bolt - Instead of ten tiny nails, how about one big one... that explodes? Delivers less damage than the combined impacts of the primary fire, but only consumes six nails. It also does rather weak radius damage and gains speed as it flies.
+Combo: Hotshot - A tight spread of 20 lava nails. Hits like a speeding truck, but uses 30 Nails.
+
+"Vanguard" Rivet Gun: A fast-firing boltgun that hurls explosive lava-bolts down range at the cost of 3 Nails each.
+Alt: Plasmatic Rockets - Costs 3 Nails and 5 Cells. The cell-charged warhead will blast away anything that resists normal splash damage. Weaker than a normal rocket, but with a much bigger blast radius.
+Combo: Marmalade - A wide, automatic spread of orange death! Six Nails per shot gets you five lava nails.
+
+Super Shotgun: A pump-action double shotgun. Slower-firing with a looser spread, but more powerful.
+Alt: Russian Buckshot - More bang with your (00) buck! Ten large pellets that deliver mild explosive damage. Consumes four shells.
+Combo: Acid Slugs - A pair of accurate slugs that release a cloud of corrosive gas on imact. Consumes six Shells.
+
+Quad Shotgun: Less a gun, more a naval cannon with a stock. A four-barreled, break-action monster of a scattergun. Very slow firing with the terrible spread, but DAMN it's got a punch to it. Great for crowd control and burst damage. Watch that recoil!
+Alt: Ermahgerd! Dergon's Brerth! - Eight shells = a wall of flames. TOASTY~
+Combo: Plasmatic Tri-Ball - Eight shells fires a tighter spread of 12 plasma-charged pellets sure to flatten almost anything in your way.
+
+Nutcracker: We had one barrel. it wasn't enough. We then had two barrels! It STILL wasn't enough. We then had four barrels! It was enough for a while, but then we wanted more. Now, ladies and gentlemen, we present to you the ultimate six-barrel phallic symbol sure to please gun geeks, rabid NRA supporters, and Ted Nugent's ego-charged micropenis! Primary fire unloads a cone of 60 buckshot pellets that will grind whatever gets in their way into chunky salsa! What's better is that all that gunpowder going off at once makes for quite a bang... enough of a bang that it'll inflict severe damage on anyting at point-blank range before the pellets get their chance to play.
+Alt: F - It's time we pay our respects to one of the greatest modders out there, PillowBlaster! For the low price of just 18 shotgun shells, send a spread of six high-explosive grenades down range at great speed. Each does immense damage to everything caught in the blast. Combined, this is enough firepower to waste several Barons in one shot! Yes, it's loud. Yes, it'll liquify everything in its path. Yes, that includes you, so keep your distance! The blast from all that gunpoder, though less than the primary fire, is still enough to knock demons for a loop, being as hazardous to their health as a swing from the Axe.
+Combo: Serious Cannon - Let fly a half-ton iron bowling ball of explosive carnage! It'll roll along the ground for a few seconds, mowing down everything in its way before detonating in a hailstorm of fire and shrapnel. Consumes a whopping 24 Shells.
+
+Hyperion: What if, in the Borderlands universe, the Hyperion Corporation had created the Elephant Gun rather than Dahl? This is our answer to that question. A double-barrel, break-action, plasmatic rifle that hits like a truck! Consumes two Cells for every Rifle Round you put through it.
+Alt: Double-Barrel Blast From The Past - We just couldn't resist restoring the old Super Shotgun in some way. Fires both barrels just like the classic boomstick! It'll only fire what you have loaded, so if you've already spent one round, this will just use the other, resulting in half the ammo consumption and half the damage.
+
+Chaingun: A multiple-barrel, fast-firing Gatling gun. Has spin-up and spin-down delays, and ain't exactly accurate.
+Alt: Auto-Spin - Keep the motor running and enjoy maximum fire rate whenever, wherever! More accuracy and slightly more damage, but reduced movement speed. It's also noisy. Demons don't like noise.
+Combo: Second Gear - Spin those barrels up to maximum speed, and unload a barrage of lead at 35 rounds per second! Watch that recoil, or you'll end up shooting the ceiling.
+
+Heavy Automatic Rifle (HAMR ["Hammer"]): A belt-fed machinegun that fires the same rounds as the Rifle. VERY powerful and fast-firing, but has shameful accuracy. A light touch on the trigger has its own rewards, as the first shot fired does more damage.
+Alt: Plasma Torch - Light whatever opposes you up with a jet of flame. Eats Cells like crazy.
+Combo: Hot Lead - Flames and bullets at the same time. Truly a lethal combination!
+
+Perforator: A chaingun that fires nails instead of bullets.
+Alt: Nail Bombs - Proximity mines that spray hot nails in all directions. Requires a Grenade and ten Nails.
+Combo: Shredstorm Cannon - Trade those nails for superheated flak shards at the cost of two Nails a shot.
+
+Electro-Driver: An adaptation of one of the most outlandish weapons from Painkiller. "I wish I could make something like that up. It shoots shurikens and lightning! It could be more awesome if it had tits and was on fire!" -Ben 'Yahtzee' Croshaw
+Alt: The Lightning Half - Spend three Cells a shot for rapid-fire homing spark projectiles. They're slow-moving but actively seek out targets as they fly.
+Combo: Zappy Star - Infuse a shuriken with the homing properties of the spark balls and gain an explosvie kick in the process! Uses two Nails and three Cells.
+
+Laser Cannon: Something of a "laser Gatling" that spams loads of accurate, low-damage, ripping laser beams. Similar to the Plasma Beam, but a lot weaker and more ammo-efficient. The marksman's heavy automatic.
+Alt: Supercharge - Fire off a powerful laser pulse with an explosive punch. Ten Cells required.
+Combo: Booyah! Beam - Charge up and let loose a sonic cannon blast with a huge blast radius. Uses 30 Cells.
+
+Static Cannon: A slower-firing "laser Gatling" that builds charge as you move around. Stand still however, and it begins losing charge rapidly. A single percentage of power yields two beams that deal relatively low damage but have a fire rate equal to the Machinegun.
+Alt: Discharge - Spend the entire charge stored in the weapon for one burst of damage that gets progressively stronger as the battery fills. At maximum power, a single beam is fired that explodes similarly to an Arbiter nuke.
+
+Prox Mine Launcher: A weapon that fires grenades as sticky proximity mines. Unlike in Q3 Team Arena, though, these don't have a friend-or-foe sense!
+Alt: Timed Plasma Mines - Mix with ten Cells for a bigger, greener bang. Fires three timed explosives at much longer range.
+Combo: 40mm Buckshot - A heavy blast of 24 buckshot pellets at the cost of only one Grenade.
+
+Grenade Launcher: A launcher that lobs bouncing grenades at enemies. Faster than rockets, but difficult to aim upward with. Best for enemies below you or clearing out rooms.
+Alt: Impact Grenades - Rather than having them bounce, just have them pop wherever they land. Slightly less powerful than normal grenades.
+Combo: Spiky Funballs - Spend two Grenades and fire a spread of five extra-bouncy bomblets.
+
+Rocket Launcher: A big rocket-shootin' gun to blow shit up with.
+Alt: SACLOS Missiles - Fire, aim at the enemy, and let these homing missiles do the rest. Uses two Rockets.
+Combo: HE/V ("Heavy") Shell - Spend two Rockets for a high-explosive, high-velocity cannon shell.
+
+Napalm Launcher: Lobs a ball of pure flame that sets the ground ablaze. Perfect for the pyromaniac in you!
+Alt: Napalm Rocket - Pretend you're a Mancubus, and pop two Rockets to fire a flaming rocket that has the same fiery aftermath at the primary.
+Combo: Biorocket - Similar to the alt-fire, but it leave corrosive gas in its wake and explodes into globs of acidic goop.
+
+Carrion Cannon: A mixture of UAC and hellish tech, this nasty piece of work sucks in enemies and their various bits of viscera...
+Alt: Helemental Grenades - ...and converts them, via Argent tech, into selectable, elemental grenade shots. Reload key plus directional input changes grenade type: explosive, flame, ice, electric, and acid.
+
+Phalanx: An exotic energy weapon that uses Slugs to fire deadly, explosive bolts.
+Alt: Flak Cannon - split four Slugs into shards of hot metal. Sure to please crowds.
+Combo: Flak Bomb - A tight cluster of six Slugs that pop into the air and explode in a shower of superheated chaos.
+
+Thunderbolt: A powerful, yet limited-range lightning gun. Uses Dark Matter Cores for ammo.
+Alt: Ball Lightning - Powerful, explosive, electric orbs. Damages everything it passes, then explodes for even more punishment. Costs seven Cores.
+Combo: Bouncy Ball Lightning - Bigger, slower, more powerful, and bounces off walls. Costs 15 Cores.
+
+Ion Ripper: An ion gun whose shots bounce off walls, dissipating after a few seconds or on contact with an enemy. Great for close quarters!
+Alt: Plasma Shotgun - Lose the bouncy-bouncy, gain the spready-spready. Fifteen Cells a pop.
+Combo: Bouncy Plasma Shotgun - Spread and bounce! 20 Cells a shot.
+
+Sparqbeam: The energy-based sidearm from System Shock, reimagined here! Damage per hit is similar to the Plasma Rifle, but with an added chance to stun the target.
+Alt: Full Blast - For ten Cells, overheat the weapon to fire a beam that's not only carries the damage of a rocket, but is guarantted to stun everything that it hits and doesn't kill!
+Combo: Cell Grenade - Pop out the mag and throw it like a hand grenade. The explosion is similar to the alt-fire, but with much more damage and wider radius. Consumes 20 Cells per throw.
+
+Plasma Rifle: The venerable blue burner. Now packs mild splash. Its bolts move faster and it no longer has a cooldown delay.
+Alt: Stun Bomb - Explosive, airbursting plasma grenade with a chance to stop demons cold! Uses six Cells.
+Combo: True Blue Burn - Blow through an exorbitant amount of cells to roast demons with raw plasma!
+
+Railgun: A sniper's delight. The railgun fires heavy depleted-uranium Slugs via very powerful electromagnets. Will penetrate through anything that's not a wall.
+Alt: Telescopic Sights - Sacrifice fire rate for much more damage. A perfect alternative to the old-fashioned Sniper Rifle.
+
+Plasma Beam: Fires a powerful, sustained beam of burning-hot orange plasma particles.
+Alt: Anti-Plasma Beam - Flip the polarity and fire a sustained beam of freezing-cold white anti-plasma. Put 'em on ice!
+Combo: Artillery Beam - Fully-automatic, explosive beams of condensed plasma that burn eight Cells a shot.
+
+Destructor: The Baby BFG. Effectively a hypercharged plasma rifle that fires explosive mini-BFG balls for 15 Cells a pop.
+Alt: Arc Shots - Slower and slightly smaller boom, but more efficient grenade-like balls of plasma. Uses twelve Cells.
+Combo: Gamma Ray - Zap foes with a directed blast of intense radiation. Uses 20 Cells a shot.
+
+BFG2704: This aging superweapon can still kick wholesale ass, firing a veritable wall of deadly plasma. (read: updated DOOM press release beta BFG)
+Alt: Angry Plasma Rifle - Hose down the hordes with a plasma-spewing minigun! Packs a similar explosive punch to the Plasma Rifle but with a long cooldown.
+Combo: Proteus Cannon - Release a slow-moving, homing ball of yellow plasma that constantly sprays charged HyperBlaster balls ahead of itself. On impact, it delivers a final explosive hay-maker blow! Consumes 500 Cells per shot, and you can only fire one at a time.
+
+BFG9000: It's back, and it's as badass as ever. Packs a little recoil now alongside a little extra damage.
+Alt: Rad Burst - Blow 100 cells, and watch as your BFG spews enough rads to make a Fallout game jealous, and melt any poor schmuck caught in the lovely green glow.
+Combo: Bio-Force Generator - Yes, we even brought in the DOOM movie! This corrosive blue ball plows through everything in front of you before exploding on contact with a surface. Uses 100 Cells.
+
+"Bouncer" Multi-Grenade Launcher: An M79-style launcher that spews cluster grenades. Great for crowds.
+Alt: Multi-Napalm Launcher - Blanket an area in hot death! The perfect area-denial solution! Costs 15 Grenades.
+Combo: Dispenser - One big grenade... that explodes into five slightly smaller grenades... that explode into ten spiky funballs each! Consumes 20 Grenades per shot.
+
+Dark Matter Cannon: Talk about crowd control! The DMC is a black hole gun whose projectiles rip through all enemies, even bosses. Beware the black hole's massive explosion upon hitting a wall, though!
+Alt: Disintegrator - A slow-firing automatic that fires dark matter balls with some degree of inaccuracy. Each shot costs one Core, but there's a brief cooldown after letting off the trigger.
+Combo: Vortex Cannon - A dark matter-fueled laser blast! Five Cores to put down anything shy of a Baron!
+
+"Arbiter" Multi-Rocket Launcher: Two words: Rocket. Shotgun.
+Alt: Flaming Fat Kid - Trade in 25 Rockets today and get your very own man-portable nuclear warhead! Obliterate Barons, crush Cacos, or just turn legions of zombies to paste! No radius damage is inflicted on the user-- hence why it's so pricey to use. It's also kinda fiery...and you're not immune to that.
+Combo: Drunk Missile Barrage - Auto-fire homing missiles that travel in a corkscrew fashion. One Rocket gets you a burst of five.
+
+BFG10K: The mother of all BFGs. Kicks ass and says "to Hell with the paperwork"! Packs combined radius, splash, ball-radiation, *two* BFG effects AND direct-hit damage. 
+Alt: BFG40K - No connection to Warhammer. Just a spread of four of the most devastating projectiles you're likely to see this side of Russian Overkill. Multiple BFG Effects, high impact damage, continuous and explosive AoE damage; it may cost 450 Cells, but *nothing* survives a direct hit from this. Especially if you're nuts enough to use a Quad Damage.
+Combo: Spirit Bomb - Spend 300 Cells for a massive ball of demonic essence. It behaves like a bigger BFG10K ball at first... then it explodes into a swarm of 50 angry spirits that seek out and devour your enemies.
+
+Unmaker: This hellish living weapon is a devastating killer. Be careful though- it uses your health as its ammo!
+Alt: What You Thought The Unmaker Fired - Weaker, but much faster! Take aim and let loose with a more precise alternative to the tactical carpet bombing the primary fire offers: a spread of nasty hellish plasma shots. Uses three Cells and two points of health.
+Combo: M.D.K. - Got 100 points of health you're willing to part with? Why not spend it for a single shot that will guaranteed gib absolutely anything, no exceptions!
+
+* Inventory Information *
+
+There are 14 items that are stored and can be used at any time. You can stack multiple effects at once, but you can only stack time using more than one of the same powerup except for the Blur Sphere. For example, you can stack a Quad and Double Damage for 30 seconds of 8x damage, but if you use 2 Quad Damages, you get 60 seconds of 4x damage.
+
+Field Medkit: Restores 25 health, no overheal.
+
+Armor Repair Kit: Restore 25 armor, no overheal. If you have no armor, it gives you 25 green armor.
+
+Ammo Sphere: Infinite ammo for 20 seconds.
+
+Blood Sphere: 10% health drain with all attacks for 3 minutes.
+
+Haste Sphere: Double movement speed for 30 seconds.
+
+Performance-Enhancing Neural Implant System (Speed Booster): This is an exclusive item for the Heavy and Gunner. It gives a 5-second boost of speed, plus increased jump height for the Heavy. It is reusable after a 30-second cooldown.
+
+Blur Sphere: Partial invisibility for 60 seconds. Use two for total invisibility.
+
+IR Visor: Light amplification for 2 minutes.
+
+Bio Sphere: Protection from damaging surfaces for 60 seconds. This powerup, unlike the vanilla Radiation Suit, cannot leak.
+
+Quad Damage: 4x damage with all weapons for 30 seconds.
+
+Double Damage: 2x damage with all weapons for 30 seconds.
+
+DualFire Damage: Increased attack speed for 30 seconds. High-speed weapons fire two shots at once.
+
+Power Armor: 50% damage protection for 2 minutes. Picking one up gives 100 points of armor. If you have no armor, it gives blue.
+
+Invulnerability Sphere: Invulnerability for 30 seconds.
+
+* Monster Information *
+
+There are 77 monsters in this mod. Each vanilla monster is replaced with a random monsters spawner containing a subset of these. The Revenant spawner has been repurposed as a 4th-tier zombie spawner, producing enemies carrying powerful weapons such as the HAMR, Plasma Rifle, Rialgun, and BFG9000. Revenants themselves have been grouped with Hell Knights in their spawner. Aside from that, you'll find monsters of roughly the same level of challenge as their vanilla counterparts on each spawner.
+
+* KEYCONF and MENUDEF Information *
+
+Weapon slot keys have been renamed to describe the type of weapon on that slot. Weapons marked with a * are replaced by at least one class weapon.
+
+Slot 1 - Melee:		*Knife, Axe, Chainsaw
+Slot 2 - Pistols: 	*Blaster, *Laser Pistol, *Pistol, Burst Pistol, Suppressor Pistol, *Nail Pistol
+Slot 3 - Close Combat:	Revolver, *Rifle, *Shotgun, Auto Shotgun, Super Shotgun, Quad Shotgun
+Slot 4 - Assault: 	Hyperion, *Machinegun, *Assault Rifle, *Sniper Rifle, HyperBlaster
+Slot 5 - Explosive:	Prox Mine Launcher, Grenade Launcher, Carrion Cannon, *Rocket Launcher, Napalm Launcher
+Slot 6 - Nail:		*Nailgun, Spearhead, Vanguard, Perforator
+Slot 7 - Heavy:		*Chaingun, *HAMR, Electro-Driver, Laser Cannon
+Slot 8 - Energy:	Sparqbeam, Plasma Rifle, Ion Ripper, Destructor, Railgun, Phalanx
+Slot 9 - Exotic:	Static Cannon, Bouncer, Arbiter, Plasma Beam, Thunderbolt
+Slot 0 - Ultimate: 	Dark Matter Cannon, Nutcracker, BFG2704, BFG9000, BFG10K, Unmaker
+
+We've also added hotkeys for every inventory item. You'll find both of these sets of key bindings in the Hotkeys section of Mod Settings.
+
+Alt Fire - Secondary Weapon Action (zoom in for scoped weapons, alternate shotgun shell loads, underslung weapons, etc.)
+Reload - Tertiary Weapon Action (zoom out for scoped weapons, fire mode selection for Carrion Cannon, reload Revolver)
+Zoom - Toggle Flashlight
+Weapon State 1 - Drop Primary Ammo (Small)
+Weapon State 2 - Drop Primary Ammo (Large)
+Weapon State 3 - Drop Secondary Ammo (Small)
+Weapon State 4 - Drop Secondary Ammo (Large)
+
+You'll find these in the Controls section of Mod Settings.
+
+Additionally, there is a General section of the menu for selecting your HUD style (see below) and adjusting monster health display and how fast you need to double-tap a direction to dash.
+
+* HUD Styles *
+
+There are six HUD styles to choose from. Note that this only applies to the fullscreen HUD. If you're using the non-fullscreen HUD, it will default to a variant of the Detailed HUD. You can switch to fullscreen by pressing the equals key.
+
+None: No HUD apart from the elements that can be toggled in the Options menu (weapon/item tags, crosshair, messages) and the inventory bar.
+
+Minimal: Small fonts, few icons. Ammo and inventory display use words instead of images. Keys are placed under the weapon sprite.
+
+Simple: Health, armor, and ammo are placed in the corners similar to the minimized vanilla HUD for GZDoom, but they use bigger fonts and images. Mugshot replaces medikit icon to indicate health. Keys are arranged in two columns beside health and armor. Inventory item is displayed to the left of ammo.
+
+Classic: From left to right: medikit icon, health, armor icon, armor, some empty space for weapon sprite, keys in two columns, inventory item, primary ammo, secondary ammo. This is the HUD that was used for the original QuakeStyle.
+
+Detailed: Take the simple HUD, move keys to their position in the minimal HUD and move everything else inward. Readouts for all ammo types occupy the corners, and powerup timers appear on the right side of the screen.
+
+Fancy: Everything is lumped into the bottom corners except the powerup timers from the detailed HUD. On the left is a red healthbar marked by a red cross, a green armor bar marked by your current armor icon, and an item panel with current inventory in the middle, flanked by keys on the left and skulls on the right. On the right, primary ammo bar is placed at the very bottom if the current weapon uses ammo. Secondary ammo bar is shown above that if the current weapon uses two ammo types. Both ammo bars default to orange, but all four of these can be changed to your choice of red, orange, yellow, green, light blue, dark blue, purple, and silver.
+
+* Difficulty level information *
+
+There are eight difficulty settings to choose from: five standard settings and three special game modes. On the standard settings, monster health and damage do not scale whatsoever.
+
+I'm Too Young To Die
+The easiest skill setting made a little easier. In addition to slow, docile monsters that infight unrestricted (i.e., Hell Knights and Barons will attack each other). You'll find the ammo drops are doubled in size and health restoration items are increased in power by 20%. Many monsters will receive a downgrade on this setting such as Pain Elementals being replaced by Cacodemons, and Lost Souls are removed entirely.
+
+Hey, Not Too Rough
+Slightly harder than the previous. Enemies are faster and slightly more aggressive and still infight unrestricted. Double ammo is removed, but the increased healing is still present. A few enemies receive a downgrade, but Lost Souls are back.
+
+Hurt Me Plenty
+Medium skill setting. Everything is set to default and unscaled (aside from the aggressiveness which falls in line with the new curve at 0.6 rather than 0.5). No special rules or player advantages/disadvantages.
+
+Ultra-Violence
+Hard mode. Enemies are above average in aggression. Caco, Demon, Spectre, and Hell Knight X-spawners are in place, so it's possible to see an Archvile where you would ordinarily see a Spectre, among many other possibilities. With Monster Closet added, some map decorations are replaced with turrets on this and all following settings.
+
+Nightmare
+Vanilla Nightmare, but worse. Monsters are fast and hyper-aggressive. They also respawn every 45 seconds and Zombie, Caco, Demon, Spectre, and Hell Knight X-spawners are in place. Additionally, some items receive a downgrade.
+
+Torment & Torture (Styled in reference to "Heaven Or Hell" from Devil May Cry 3 and onward)
+Instant kill/instant death mode. All monsters have 1 point of health, but do 10,000x their normal damage. Aggression is toned down to HMP levels so you won't just get sniped right out of the gate... hopefully. Zombies are removed from the equation as well, so hitscans are less of a thing. To make things slightly more tolerable, all explosive barrels are replaced with supply barrels full of random loot. Almost all items have been changed around to minimize the amount of useless items you'll find. You'll find each level is dotted with special Invulnerability Spheres that automatically activate when picked up. Oh, and damaging floors don't hurt you anymore.
+
+Hurt Me More
+Hurt Me Plenty, with a twist. Spawn filters are set to Nightmare (no respawns though), and all X-spawners are activated. The only monsters that this does not apply to are Cyberdemons and spider Masterminds. Finally, monsters do not infight.
+
+Legendary Doom Slayer (Named and styled in reference to "Legendary Dark Knight" from Devil May Cry 4 and DmC: Devil May Cry)
+Fast, weak, respawning monsters with maximum aggro that infight without restriction. Health and ammo pickups give 5x their normal amounts, as do inventory healing items. X-spawners are the same as Nightmare, so prepare to be assaulted by tidal waves of ALL OF THE THINGS at all times.
+
+A side note: if you play with respawning monsters, each respawn re-shuffles that spawn point (i.e., you could get an SSG guy at the Shotgunner Spawner when the level initially loads, but he may respawn as a Rifle Zombie or Beheaded Kamikaze). If you run into a BFG Guy or Unmaker Guy at any point, don't worry. Odds are good that won't happen next respawn.
+
+Additionally, for those of you concerned with 100% completion, it's still absolutely doable for kills and secrets. I believe I have worked out a solution for items, but as this is a very complex mod, it needs more testing to be certain.
+-Brian
+
+Lastly, we'd like to apologize for the lack of appropriate credit in earlier versions of QuakeStyle and QuakeStyle ZX that carried over to this mod. We are working to fix that issue, as visible below.
+
+* Copyright / Permissions *
+
+Authors MAY use this level as a base to build additional levels, provided you give proper credit. Hell, most of the stuff here ain't ours anyway (see above and below).
+
+You MAY distribute this WAD, provided you include this file, with no modifications.  You may distribute this file in any electronic format (BBS, Diskette, CD, etc) provided you also include this file, intact and unmodified. (in the words of True Capitalist Radio's host "Ghost", "SPREAD IT AROUND LIKE WAHLDFAHR!")
+
+If there is an element of this mod that is yours, contact the authors via email and they will add your appropriate credit in the next release of the mod. The same goes for any credits that are in error.
+
+* Credits *
+
+* Weapons (including projectiles and pickup sprites)*
+Pistol: Batandy
+Shotgun: Batandy
+Knife: DoomJedi, Ozymandias18 and Scuba Steve
+Chainsaw: id/Midway/SGT Mark IV/Xatrix/Interplay
+Axe: Mike12/Scalliano/Idgamer/Eriance
+Burst Pistol: JoeyTD
+Suppressor Pistol Shockwave: NovaKiller
+Nail Pistol: Unknown, acquired from mutiny20.wad by Woolie Wool
+Laser Pistol: WildWeasel, Mor'ladim
+Blaster: Banjo Software (with edits by Jay and Xterra)
+Revolver: Batandy? (we don't know for sure)/Scuba Steve (combined by Xterra)
+Rifle: id/Vaecrius (with edits by Xterra)
+Auto Shotgun: id/Monolith/JoeyTD
+Assault Rifle: SGT Mark IV (with edits by Xterra)
+Machinegun: id/Captain Toenail (with edits by Xterra)
+HyperBlaster: Unknown (edited by Xterra)
+Nailgun: id/Lazureus/Mechadon/Zrrion the Insect
+Sniper Rifle: JoeyTD/CaptainJ
+"Spearhead" Super Nailgun: Zrrion the Insect
+Super Shotgun: Unknown (Claim if yours! Please!)
+Quad Shotgun: Warhawk/Logan
+Chaingun: id/Xaser/Skulltag team
+Carrion Cannon: Combine_Kegan (sprites), Lavender and Resident Evil 5 (idea)
+Vanguard: Lord Smash, zrrion the insect, MagmaCow
+HAMR: Unknown, uploaded by HellCattX (please claim if yours!)
+Grenade Launcher: Skulltag team/Epic Games
+Napalm Launcher: Eriance (with edits by Xterra)
+Prox Mine Launcher: Eriance/3D Realms
+Ion Ripper: ShadesMaster/JoeyTD
+Phalanx: Zrrion the Insect (with edits by Xterra)
+Railgun: osjclatchford/3D Realms/SilentZorah
+Plasma Rifle: id/Per Kristian Risivik
+Laser Cannon: BadMojo
+Thunderbolt: Jimmy Beaubien/CaptainJ
+Perforator: id/Eriance/Uboa/Chronos "phantombeta" Ouroboros (with an edit by Xterra. BTW, thanks for contacting us about credit, Chronos- sorry we didn't have it in earlier!)
+"Bouncer" MGL: NMN
+BFG2704: id/Zrrion the Insect (with edits by TBG)
+BFG9000: Per Kristian Risivik/Innocence X3/SilentZorah/ChaosCentral
+Destructor: Eriance/Raven
+Plasma Beam: JoeyTD (with edits by Xterra)
+"Arbiter" MRL: Midway/id/Zrrion the Insect
+Dark Matter Cannon: NMN/Zero Prophet/Reactor/Kronos/Midway
+BFG10K: Skulltag team
+Spent casings (excluding slugs): CaptainJ (with an edit or two by Xterra)
+Static Cannon: Captain Toenail/Skulltag team/Raven/Daniel
+Hyperion: Captain Toenail, coop
+Electro-Driver: Stuart Godbolt
+Sparqbeam: Ryan Polczer (with edits by Xterra and TBG)
+"Vanguard" Rivet Gun: Lord Smash/zrrion the insect/MagmaCow
+Twin Pistols: OSJClatchford, Eriance, silentzorah (edit)
+Throwing Knife: Unknown
+Hand Grenade: Xim, Froon, NeoWorm, Lobotomy Software
+UAC Precision Rifle: BadMojo
+"Sasha" plasmatic chaingun: Midway/Cage/Almonds
+"Schabbs" needler: Apogee/Id/Midway/Mechadon/Shooter7/Daniel (with edits by Xterra)
+ETF Rifle: Unknown (edited by Xterra)
+"Artemis" EMG Pistol: Doomer1 (with edits by Xterra)
+"Trident" homing missile launcher: Zrrion the Insect/Eriance/Jay
+"Boone" SASR: NeuralStunner/CaptainJ/DoomNukem/Carbine Dioxide/Valve/TDOM/GhostKillahZero (with edits by Jay)
+Yamato: osjclatchford/Mike12/Eriance/3DRealms/GhostKillahZero
+"Kestrel" heavy AR: Mike12/CaptainJ/DoomNukem (with edits by Jay)
+"Ghost" tactical shotgun: Eriance/JoeyTD/TheRailgunner/PillowBlaster/SGT Mark IV
+"Wastelander" single shotgun: Cory Whittle
+"Vance" PDW: Cage/Raziel236 (with edits by Jay)
+"Ripley" HSW: osjclatchford/DoomNukem/Carbine Dioxide (with edits by Jay)
+"Rapier" plasmatic DMR: DoomNukem/Skulltag team (with edits by Jay)
+"Ironside" mace and shield: PillowBlaster/Hexereticdoom
+"Nutcracker" Hexa-Shotgun: Russell Pearson/Creators of Legendary's Complex AddOn for Complex Doom (I don't know who to credit for the gun sprites. -TBG)
+
+* Enemies *
+Pistol guys: Unknown
+Blaster guy: Unknown
+Rifle guy: NMN, Tormentor667
+Auto shotgun guy: Unknown
+Super shotgun guy: Unknown
+Grenade guy: Unknown
+Rocket guy: Xim, ChainMail
+BFG guy: ItsNatureToDie, NeoWorm
+HAMR guy: MagicWizard
+HyperBlaster guy: unknown
+Nailborg: NeoWorm
+Heavy nailborg: Xim
+Plasma guy: Tormentor667, Captain Toenail, Ghastly Dragon
+Super nailgun guy: Skulltag team, Zrrion the Insect
+Z-SEC: Captain Toenail
+Machinegun guy: Skelegant, David G.
+Zombie marine: Ixnatiful
+Railgunner: Ghastly Dragon, Xim, Fuzzballfox, Tormentor667
+Unmaker guy: Xim
+Nightmare demon: AgentSpork
+Mechademon: Skulltag team, NeoWorm, Vader
+Fiend: Skulltag team, Eriance
+Stone demon: Jimmy, Eriance
+Mecha-Fiend: Neoworm, Vader, Eriance, hnsolo77, Skulltag team
+Dark imp: unknown
+Phase imp: id Software, Raven Software, Eriance
+Duo imp: Nanami
+Nightmare imp: Vader
+Petrified imp: Espi, Vader, MidoriMan
+Wraith: Unknown
+Vulgar: Eriance
+Maggot: Vader
+Forgotten One: Captain Toenail
+Incubus: Unknown
+Nightmare caco: Tormentor667
+Arachnorb: Jimmy91, YuriTheHairFan
+Arachnotron MKII: Tormentor667, Captain Toenail
+Deathnaught: Eriance
+Hell warrior: Unknown
+Cybaron: Eriance
+Afrit: Espi, Ebola
+Pyrodemon: Eriance, Maelstrom 
+Annihilator: Eriance
+Arachnophyte: Xaser, Quasar (with edits by Jay)
+Cyber Mastermind: Nanami
+Beheaded Kamikaze: Tormentor667, Captain Toenail
+Sniper Zombie: Xim and Ghastly
+Nazis: Fox666/BigDaveHadSomeToo/MagicWazard
+
+* Powerups *
+Quad Damage: Skulltag team (with edits by Xterra)
+Double Damage: unknown
+DualFire Damage: unknown
+Regensphere: Scalliano (with edits by Xterra)
+Ammosphere: Dreadopp (with edits by Xterra)
+Armorsphere: Lucario (with edits by Jay)
+Gigasphere: Eriance
+Tarasphere: Captain Toenail
+Biosphere: Captain Toenail
+Lifesphere: Scalliano (with edits by Jay)
+Haste Sphere: Unknown (with edits by Xterra)
+
+* Code *
+Auto Shotgun: JoeyTD
+BFG2704: Gothic
+Thunderbolt: TerminusEst13/ijon/Ru5tK1ng
+Beheaded Kamikaze: Captain Toenail
+Screen tilting script and gore: Nash Mulhandes
+
+* Other *
+Destroyable light decorations: Kinsie
+Remastered DOOM sounds: Per Kristian Risivik
+Fonts: Jimmy
+Monster health and armor drops: Kensey
+Flashlight: 
+Monster health display: spaceman333
+
+* Note *
+If we haven't credited you properly for a sprite, code or somesuch, you want something of yours removed from the mod, or you know who created some imported code or audiovisual aspect of this mod, -PLEASE- email and let Brian, Xterra, or Jay know- it'll be fixed in the next release.
+
+* Where to get this WAD *
+
+Jay's website:
+http://zorasoft.net/

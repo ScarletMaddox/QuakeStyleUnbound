@@ -1,0 +1,154 @@
+ADDITIONS
+General:
+-Alt-fire ammo counts are visible on the Weapon Wheel.
+-Added a flashlight that can be toggled using the Zoom key. You can also turn it off with primary or alt-fire.
+-Gunslinger class added as a replacement for Doomed Guy
+-The player can now drop ammo for their current weapon.
+-"X-Spawners" When playing on Ultra-Violence, cacos, demons, spectres, and Hell Knights can occasionally be promoted to stronger monsters. On Nightmare and Legendary Doom Slayer, the same is true, but zombies can also be replaced with higher-level variants. On Hurt Me More, every monster spawner is an X variant except for Cyberdemons and Spider Masterminds. Those that do not promote to a higher tier skew in favor of the stronger monsters on their own tier.
+-Secret combo fire modes are now available for all unscoped weapons except the Carrion, Static Cannons, Ripley, and Sasha.
+-A mod settings menu has been added to the main menu to put all the mod stuff in one place.
+-You now have the option to select from a variety of fullscreen HUD styles: none, minimal, simple, classic, detailed, and fancy.
+-Monster status/item name displays.
+-Class Info screen detailing the properties of each character class.
+-Random ammo bonus for 100% secrets.
+-Health upgrade for 100% kills.
+-Rare and guest weapons are now given for 100% item collection.
+
+Monsters:
+-Eye of Malady, a turret that replaces the Evil Eye prop.
+-Core Tentacle and Lava Tentacle, turrets the replace the Tech Pillar and Floating Skull props respectively. These only appear on Ultra-Violence, Nightmare, TNT, Hurt Me More, and Legendary Doom Slayer difficulties.
+-Blot, a leaping cloud of mist that does constant splash damage when close to its target.
+-Nightmare Spectre. With Monster Closet active, this appears in place of Spectres, which are moved to the normal Demon spawner.
+-Axe Guy, making all non-unique melee weapons available to monsters.
+-Cryo Demon, a palette-swapped Baron that throws ice projectiles.
+-Hexa-Shotgunner, a zombie brandishing the Nutcracker.
+-Plague, an armored Pain Elemental that fires homing missiles which explode in clouds of poison.
+-Lurker, a Spectre-like Cacodemon that fires two energy balls that weave in a figure-eight pattern.
+-43 new monsters from or based on those from the Quake series. These are placed in their own expansion. These can be toggled on and off and spawn chance can be adjusted in the mod settings menu. When these are chosen for spawning, there is no bias. Each subset is completely random.
+-7 Wolfenstein-based enemies; 5 Nazis and 2 mutants.
+
+Weapons:
+-Static Cannon, based on the weapon by the same name from Doom 2016. Primary fires two beams for 1% charge. Alt spends the entire charge for a progressively stronger beam. Faster charge with Haste effect.
+-Hyperion, a double rifle inspired by Borderlands. Primary fires a single, powerful round from one barrel. Alt fires 20 weaker pellets if fully loaded - 10 if one barrel has already been fired. It can be reloaded manually after the first shot and will automatically reload after both barrels are spent.
+-Electro-Driver, the "shurikens-and-lightning gun" from Painkiller. Primary fires shurikens, and alt fires homing lightning balls. Combo fire releases a shuriken charged by a lightning ball that homes in on a target, then explodes on contact.
+-Sparqbeam, the energy-based stun pistol from System Shock. Primary fires a weaker beam that will stun one enemy. Mild splash damage makes multiple stuned targets possible. Alt fires a stronger beam with a larger blast radius. Combo throws the cell being used as a magazine for the weapon as a stun grenade.
+-Nutcracker hexa-shotgun. We now have a ballistic superweapon. Primary fires 60 buckshot pellets that force gibbing. Alt fires a spread of six frag-12 shells, each packing more power than a proximity mine. Combo releases a cannonball that rolls along the ground, running over any enemies it touches and exploding after a few seconds with half the force and radius of an Arbiter nuke.
+-ETF Rifle, a double-barrel nail carbine, as a class-exclusive weapon for the Slipgater. Primary fires a single nail. Alt performs a zoomed double-tap. Pressing the reload key alternates between lava nails and explosive-topped flechettes.
+-"Boone" Suppressed Sniper Rifle as a class-exclusive weapon for the Sniper. Functionally identical to the Sniper Rifle, but capable of performing stealth kills.
+-"Schabbs" Needle Gun as a class-exclusive weapon for the Medic. Primary fires three normal needles. Alt fires three lava needles. Combo rapid-fires a spread of eight flechettes.
+-"Trident" Homing Rocket Launcher as a class-exclusive weapon for the Demolitionist. Primary fires a three-round burst of homing missiles. Alt fires a spread of napalm pellets. Combo releases an incendiary rocket that dispenses napalm as it flies.
+-"Ironside" Mace and Shield as a class-exclusive weapon for the Berserker. Primary fire swings the mace. Alt-fire raises the shield, making the user invulnerable but slow. This can be interrupted with a quick, weaker mace swing by pressing primary fire or a powerful fire wave attack that uses health by pressing reload.
+-"Rapier" DMR as a class-exclusive weapon for the Marksman. Primary fires an invisible rail attack that damages everything in its path. Alt performs a radial kick. Combo sacrifices ripping damage and accuracy to autofire the weapon.
+-"Ghost" Tactical Shotgun as a class-exclusive weapon for the Hunter. Primary and alt are identical to the Shotgun with the stealth kill bonus. Combo throws a decoy that will explode after 15 seconds. There is no ammo for this, but the decoy requires a cooldown period before it can be used again.
+-"Kestrel" Heavy Assault Rifle as a class-exclusive weapon for the Ranger. Primary and combo are the same as the Assault Rifle, but with higher damage, accuracy, and double ammo consmption. Alt fires two homing mini-missiles.
+-"Vance" Submachine Gun as a class-exclusive weapon for the Infantry. Primary is the same as the Machinegun, but trading damage for fire rate. Alt fires a timed mine dart that will explode after a brief time if stuck to a wall or immediately on contact with an actor.
+-"Ripley" Custom HAMR as a class-exclusive weapon for the Gunner. Primary fires faster than the HAMR. Alt fires a liquid flamethrower instead of a plasma torch, spreading napalm fire and consuming cells at a rapid rate.
+-"Wastelander" Single Shotgun as a class-exclusive weapon for the Gunslinger. Primary fires extremely inaccurate but poertgul nuvkdhoy. Alt fires bouncing metal shards. Combo fires electric buckshot that can stun targets.
+
+CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
++Increased the Fallen's health and projectile speed.
+=Changed the Elite's Laser Pistol into a "UAC Precision Rifle" (read, laser rifle)
+=Changed the Heavy's Chaingun into a unique actor, "Sasha."
+=Changed the Technician's Blaster into a unique actor, "Artemis."
+-Several classes have lost some equipment.
++Gave the Marksman a Revolver with 36 Bullets.
+-Heavy defense significantly reduced.
+=Green and red armor sets have new sprites. Blue armor uses a recolored variant of the old red armor sprites.
+=Replaced Chainsaw sprites with a set that looks cleaner.
+-Normal health and armor drops from monsters have been restricted to 1 point for normal drops and 2 for strong ones.
+-Class weapons cannot be dropped.
+-Reduced the Satyr Lord's chance to attack and counter, removed self-healing property, and increased pain chance.
+=Replaced the Sniper Rifle and Railgun scope sprites with the ones from DoomZone.
+=Stone Cacodemon shoots faster Caco balls instead of plasma.
++Sniper Rifle fires slightly faster when unscoped.
+=Sniper Rifle and Railgun zoom in on alt-fire pressed, not released.
+=Scopes now have a fade transition.
+-Removed the Medic's Chainsaw. He can no longer heal when using the Chainsaw.
+-Removed the Demolitionist's Rocket Launcher modifications. Shotgun alt-fire is restored to default.
+-Drastically reduced the Berserker's melee damage from 10x to 1.8x.
++Increased the health of zombies that replace Revenants. Some have been given a higher pain chance to compensate.
++Blaster Zombie drops his weapon. This is a custom pickup that gives the weapon and five cells. Chance to drop cells reduced.
+-SSG Guy fire rate slowed.
+=Lightning trail for Thunderbolt and Nightmare Arachnotron changed to a rail attack.
+=Plasma Beam alt-fire changed to a rail attack, accuracy reduced to compensate for change of bias in RNG.
+=Quit messages changed... again.
++Laser Cannon spinup time reduced.
+-Elite's mass increased by a few more orders of magnitude. Even the Nutcracker alt-fire with Quad and Double Damage active can't be used to rocket jump or knock him back now. His speed has also been reduced slightly.
++Slipgater shotgun damage increased, number of pellets decreased. The net gain is a significant damage buff.
++Machine Pistol reverted to its ZX name, Burst Pistol. Alt-fire changed to a blast of ratshot that consumes a shotgun shell.
+=Reduced the size of the inventory bar so it doesn't get in the way of the health or ammo displays. Original size is restored when using the fancy HUD.
+-Sniper Zombie's damage has been reduced.
++/-Laser Cannon and Chaingun have traded places in the spawners. Knife has been removed from the spawners entirely.
++Beheaded Kamikaze now has a 1 in 16 chance to drop a ChainsawSpawner. Chance to drop individual weapons removed.
+-NoPain, NoInfighting, and FastMonsters flags are removed from Ultra-Violence and Nightmare. Nightmare respawn time changed to 45 seconds. Hurt Me More has gained the NoInfighting flag. Nightmare and TNT have gained the DisableCheats flag.
++/-Difficulties have been adjusted so that actor replacement takes the place of monster health and damage scaling. Nightmare downgrades a number of items.
+=Carrion Cannon now has differently-colored muzzle flares for each fire mode. Ice and Shock share the same color for the time being.
+-Any weapon with a spinup animation will spin back down regardless of whether you fired or not.
++Powerup timers included in some HUDs.
++Powerup color filters are much more faint.
++Powerup times can now be stacked.
++/-Pistol, Burst Pistol, and Suppressor Pistol have all seen a reduction in fire rate, but an increase in firepower. Damage RNG has been removed, but their base damage is 2.5x what it used to be.
+=Super Shotgun alt-fire now uses old primary fire sound. Primary fire uses a mix of the Shotgun and Handcannon from Resident Evil 4.
++Prox Mine Launcher alt-fire launches 3 timed plasma bombs.
++Revolver alt-fire changed to a knife swing. Wadcutters moved to combo fire and made into projectiles.
++Barons cannot be stunlocked at low health.
+=A lot of unnecessary lights were removed, particularly from the Thunderbolt, Plasma Beam, and napalm fire actors.
+=Haste Sphere doubles movement animation speed and Carrion Cannon charge speed.
++Monster masses have been reworked to account for Vance's combo fire.
++Time Imp's damage has been drastically increased.
+-Fire/Flame Serpents' speed and weave intensity have been reduced.
++BloodSphere duration tripled.
++Heavy and Gunner now have Speed Booster items that double their movement speed for 5 seconds. This can be reused after a 30-second cooldown, and the Heavy gains a boost to jump height as well.
++/-Phantasm explosion damage and delay increased. Lights and screen shake added.
+=IonRipper balls that don't bounce are recolored orange.
++The player can get much closer to their own prox mines without setting them off. Demolitionist no longer takes damage from his own mines.
+=Light Amp Goggles no longer use the Torch powerup effect. They have been reverted back to LightAmp.
++Armors now provide 30% damage resistance to certain attacks (bullts for green, melee for yellow, nails for blue, and explosives for red).
+=Replaced knife sprites with those from Blade of Agony.
+=Fiend's name changed to Spitter. Mecha-Fiend's name change to Retch.
++Nail Pistol alt-fire changed to a laser sight. When active, primary fire becomes a hitscan with no RNG.
+=Monster bullet hitscans are now replaced by fast projectiles. Since they are easier to dodge, their damage RNG is increased from d3 to d4.
++Burning Barrels now drop flames when destroyed.
+=Super Shotgun fire sounds rearranged.
+=Dark Matter Cannon primary fire and Unmaker wraiths use subtractive pulselights.
+=Trails added to flame actors.
+=Charge-up sound added to Destructor.
+=Pistol and Shotgun sprites and sounds changed.
+=Demolition name changed to Demolitionist.
+-Demolitionist's fire immunity removed. He now takes half damage from flames.
++Dark Matter Cannon will now pull targets vertically.
+-All weapons given for 100% items are removed from spawners and drop lists.
+-Adrenaline powerup removed from SoulSphere spawner since it's now given for 100% kills.
+=HAMR has received a larger muzzle flare.
+=Dark Matter Cannon and Unmaker alt-fire have totally new muzzle flares.
+=Dark Matter Cannon alt-fire sound changed.
++/-Torment & Torture difficulty has been totally reworked to minimize the number of useless items the player can receive.
+=Added more detail to the BFG balls.
++Increased BFG9000 ball speed.
++/-Increased the Destructor's impact and radius damage. Introduced 5.5x3-degree spread.
+=Phase Imp has new sprites and is translucent.
+=Subtractive purple light added to the Nightmare Imp to make it stand out a little better.
+
+Bugs Fixed
+-Heavy was immune to poison. Solution: List Damage Factors for each Damage Type rather than generalizing with the normal factor.
+-Revolver entry on the weapon wheel was always showing a zero at the top. Solution: Reference the correct actor in the wheel's code.
+-Walls of errors and warnings were showing when the game loads. Solution: Mostly removing floating-point values from integer parameters and fixing incorrect references in GLDefs, among other little things.
+-Weapon Wheel was displaying "Actor 'NONE' could not be found" on every frame that it was opened if the player had dev messages turned on. Solution: "NONE" is not allowed as an actor name, so it was replaced with "NOAMMO."
+-Several lights were not showing. Solution: Assign them correctly.
+-One of the Diablost's summons didn't work. Solution: Spell the actor's name correctly.
+-Homing Afrit balls had no lights. Solution: Copy the normal Afrit Ball lights to them.
+-Ammo dropping created conflicts with the weapon/item wheels. Solution: Change weapon wheel key combo to strafe+moveup and the key combo for item wheel to strafe+movedown.
+-Deep One wasn't fading in and out properly. Solution: Use A_FadeTo instead of A_FadeOut.
+-Phantasm was getting stuck in its charge animation if it took damage while charging. Solution: Go to Missile+1 instead of Missile+2 at the end of the Missile state.
+-Fixed the long-standing bug where the Chainsaw idle sound would continue after it was dropped.
+-AoE ice attacks would freeze boss spawners. Upon shattering, the mod would crash GZDoom. Solution: Set DamageFactor of spawners to 0.
+-Revolver sounds were being interrupted by player sounds. Solution: Change Revolver sounds' audio channels to CHAN_WEAPON.
+-It was impossible to reliably get 100% items on any map. Solution: Make only non-weapon spawners, not the items, count toward percentage.
+-Flames and gas clouds were not inflicting the right amount of self-damage. Solution: Use CMF_TRACKOWNER to preserve the necessary pointers.
+-Napalm fire projectiles fizzled out in mid-air. Solution: Have their spawn state loop.
+-Blood and gibs wouldn't despawn after 30-60 seconds. Solution: Remove the -1 tic timers.
+
+Documentation
+-Included sections for monsters and inventory to the base mod info file.
+-Created an info file for Anthology Monster Pack (AMP).
+-Added a credit for TehNe

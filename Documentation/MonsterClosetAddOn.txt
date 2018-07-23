@@ -1,0 +1,163 @@
+============================================
+   Advanced Engine Required: GZDoom 2.4.x+ 
+============================================
+
+Title: Monster Closet Add-On
+Filenames: qsub-MonsterCloset.pk3 (including separate wads for each new monster, plus text files)
+Author: Brian "That Blind Guy" Willis (modder, beta tester for QuakeStyle ZX, and current co-author of QuakeStyle Unbound)
+Email Address: briancwillis2010@yahoo.com
+Misc. Author Info: Loads of new monsters to play with. This mod will NOT work without QuakeStyle Unbound.
+
+Description: Monster Closet adds 52 new monsters (including 5 bosses) to the already extensive bestiary of QuakeStyle Unbound. Many of them feature the behavior enhancements that are present in all base-mod monsters, and all have been given item drops to be in line with those monsters as well. Only 2 monsters were added to the base mod that were not present in QuakeStyle ZX at the time this mod was created. All further additions will go into this expansion.
+
+Additional Credits to: 
+			  Lavender, SilentZorah, Bathy Salts, TehNems, and BigBenkei for beta testing
+			  Many, many fellow DOOMers for many sprites and sounds, much inspiration and some code (See specific credits in each wad file)
+			  Everyone who participated in making the Monster and Weapon Resource Wads, as well as Realm667
+			  id Software for Quake, Quake II, Quake III, Quake IV, DOOM, and some sprites and sounds.
+			  The good folks at zdoom.org's forums who've put up with our insane (and sometimes inane) questions
+			  Randi Heit for the godlike ZDoom (may it rest in peace)
+			  Graf Zahl for DECORATE and the godlike GZDoom
+			  DRD Team for the repository builds of ZDoom, QZDoom and GZDoom
+			  SilentSorah and Xterra for QuakeStyle and QuakeStyle ZX
+			  Pretty much anybody who's written anything useful for the ZDoom wiki (lifesavers, you are)
+			  You, for actually wasting your time playing our little mod
+
+================================================================
+
+* Play Information *
+
+Game: DOOM, DOOM II, Final Doom
+Episode and Level # : All
+Single Player: Yes, recommended
+Cooperative 2-4 Player: Yes, also recommended but not the mod's focus
+Deathmatch 2-4 Player: Yes, but not the mod's focus
+Difficulty Settings: Yes, one of the base mod's modes had to be rebuilt in Monster Closet to make it work properly.
+New Sounds: Yes
+New Graphics: Yes
+New Music: No
+Demos Replaced: None
+
+* Construction *
+
+Base: TBG and Xterra's "QuakeStyle Unbound" mod for GZDoom 2.4.x
+Editor used: Slade 3
+Known Bugs: 
+Nothing at the moment. I try to test everything exhaustively and squash bugs as I find them, but I'm sure there's something I'm missing. Let us know if you find any, and we'll take care of it as best as we can. -Brian
+
+* Monsters Featured in this Mod *
+
+Aracnorb Queen (BOSS): If you thought the Aracnorbs weren't bad enough, get ready to meat their mama! She'll spray psychic blasts in your general direction, including an explosive "BFG" projectile. At low health or when enraged, she'll summon a group of Aracnorbs to protect her then let you have it with a barrage of directed attacks.
+
+Artisan: Hell's master sculptor! He commands the ground beneath him to chase down and strike foes and can summon stone imps and demons to his aide.
+
+Axe Guy: A guy with an axe. He hurts quite a lot.
+
+Blot: It's hard to see in the dark, but it'll spot you, then jump in your face. That black mist isn't just for show.
+
+Cacolantern: Don't get distracted by the pretty light. This angry, glowing mango spits fireballs in wide-spread and rapid-fire patterns. Like any other Caco, he'll get faster at low health.
+
+Catharsi: An imp with a gun. Oh lordy. Watch out for the time boms dropped by this one upon death.
+
+Chainsaw Zombie: Exactly what it says on the tin. Don't let him get close, or he'll carve your ass like a Christmas ham.
+
+Cryo Demon: The one and only ice-based monster in the mod. Its frozen projectiles are fast and powerful. AT low health, it'll start rapid-firing them.
+
+Death Elemental: A Pain Elemental with a serious mean streak! He can release five flavors of Lost Soul straight at you and is no pushover himself.
+
+Deep One: A stealthy squid-like creature with long claws that'll take massive chunks out of whatever they hit. At a distance, it'll blast its target with erratic balls of magic.
+
+Demon Dog: The Rottweilers from Quake, given a reddish tint. A fast but weak addition to the demon spawner.
+
+Diabloist (BOSS): An Archvile with an attitude problem. He'll turn invulnerable long enough to summon a swarm of zombies to fight alongside him and send homing fire waves to wear you down. Piss him off, and you could find yourself staring down a dozen Chaingunner-level zombies.
+
+Ehtereal Soul: I don't know about you, but when I hear "Lost Soul," I think of ghosts. This little spook fills exactly that role.
+
+Eye of Malady: Those eyes were pretty unassuming before, but now they unleasha  burst of highly poisonous projectiles. Keep your eyes peeled, or these things will ruin your day.
+
+Fallen: The faster, weaker companion to the Cacodemon. It'll fly circles around you and rapidly spew fireballs in your direction.
+
+Female Scientists: Four female zombies that attack with various lab equipment: a knife, a cleaver, a wrench, and a syringe filled with deadly poison.
+
+Fire Serpent/Flame Serpent: A pair of fire-breathing snakes. They're fast, hard to hit, and pack a mean punch, but their endurance is... lacking.
+
+Flesh Wizard (BOSS): A placid but extremely dangerous summoner. He phases in and out of existence, appearing long enough to strike or call forth the strongest of zombified soldiers.
+
+Grell: One of the most devastatingly venomous creatures Hell has to offer. Kill it before it has a chance to spread its deadly poison.
+
+Hades Sphere: It goes bang! Deal with it.
+
+Haedexebus (BOSS): Created to command the legions of demons beneath him, he'll summon squads of Pinkies and Spectres to try and corner you, then strike from afar with lasers and rockets.
+
+Hazmat Zombie: A zombie with a cattle prod. Surprisingly sturdy.
+
+Hell Hound: A stout, fire-breathing hound capable of outrunning almost any mortal man. Tame him, and you'll have an invaluable companion.
+
+Hellion: Effectively, this is a Diet Archvile. No summons, no resurrecting, only fire and lots of it!
+
+Hexa-Shotgunner: He's got a ton of health for a zombie, and he's sporting a Nutcracker and seven different kinds of shot to load it with: normal and explosive buckshot, slugs, flechettes, flak, dragon's breath, and grenades. He'll constantly chase down his target, unlike most other zombies, and let them have it with a random selection of these shells.
+
+Nightmare Arachnotron: The third rank of baby spider. This little terror gets in close and zaps its target with bolts of lightning. Don't think you're safe when you're out of range either. You'll have to contend with ball lightning from afar or when it's wounded. 
+
+Nightmare Spectre: It's a Spectre, but stronger. That's all you need to know.
+
+Nightshade: It stalks the darkest corners of Hell, blending into the shadows, waiting to attack. Just shoot it. It's not that durable.
+
+Phantasm: An explosive, green Lost Soul. Don't get too close!
+
+Plague: Instead of firing souls, this armored Pain Elemental deploys homing missiles like a flying Revenant, but these missiles have a twist. One out of the pair explodes in a cloud of poisonous gas.
+
+Poison Soul: It emits noxious fumes in your general direction, quickly stacking on the poison damage. After death, it leaves behind one last cloud of toxic gas.
+
+Psychic: A phasing soul that attacks with psychic blasts. Kill it fast if you don't want your brain scrambled.
+
+Quad Shotgun Zombie: One at a time, or all at once! This tanky gunner can really bring the pain!
+
+Rictus: A slow, fire-spewing Lost Soul sent to fight alongside the Chaingunners.
+
+Satyr: A melee-only Hell Knight. More effective when summon by his master.
+
+Satyr Lord: The aforementioned master. His proficiency with magic lends him the ability to create fake projectiles. Can you spot the real ones while his servants are gunning for you.
+
+Slime Worm: The FreeDOOM replacement for the Pinky, repurposed here as a slow, tanky beast that vomits spreads of poisonous ooze.
+
+Snake Imp: A slithering, bright green Imp that strikes with devastating poison from a far distance.
+
+Squire: A lower Hell Knight that throws magic around more aggressively than his more disciplined brothers.
+
+Stone Cacodemon: An angry flying boulder! From its mouth come balls of plasma. From its eye... a potent, explosive laser.
+
+Tentacle/Lava Tentacle: Long, slender tendrils with eyes that will shoot you on sight with deadly magic and fireballs. These replace the floating skulls that hover above lava.
+
+Time Imp: A rare but exceptionally dangerous Imp. He'll freeze his victims in time and space before unleashing a tidal wave of magic blasts. Upon death, he can even reverse the flow of time to bring himself back for a second attack.
+
+Trite: It's the DOOM 3 spider. Nuff said.
+
+Tusken: A sword-wielding skeleton that can cleave a man in half with a single swing!
+
+Viscount (BOSS): An uncybered Cyberdemon. Don't underestimate him. He may be unarmored, but he's fast.
+
+Volacubus: A flying, napalm-slinging Mancubus that torches all in his way with blazing walls of destruction.
+
+Wicked: More or less, a renamed Scrag from Quake. It's homing fireballs are nothing to scoff at.
+
+* Copyright / Permissions *
+
+Authors MAY use this mod as a base to build additional levels, provided you give proper credit. Hell, apart from some code, this is all stuff you can find on Realm667 or other mods.
+
+You MAY distribute this WAD, provided you include this file, with no modifications.  You may distribute this file in any electronic format (BBS, Diskette, CD, etc) provided you also include this file, intact and unmodified. (in the words of True Capitalist Radio's host "Ghost", "SPREAD IT AROUND LIKE WAHLDFAHR!")
+
+If there is an element of this mod that is yours, contact the authors via email and they will add your appropriate credit in the next release of the mod.
+
+* Credits *
+
+Code for all monsters modified by TBG. Credits for each monster can be found inside their wad files. The exception to this is any original "original" creations using vanilla or previously-credited assets. You'll find those in MC-Spawners.wad.
+
+* What Defines "Original"? *
+
+I am not an artist or a sound designer, so anything of that sort is going to come from somewhere. However, if the monster idea (see Death Elemental) and/or code (see Eye of Malady) is mine, it goes into the "Original" Creations section of the main Decorate file.
+
+* Where to get this WAD *
+
+Jay's website:
+http://zorasoft.net/

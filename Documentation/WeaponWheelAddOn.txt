@@ -1,0 +1,61 @@
+============================================
+   Advanced Engine Required: GZDoom 2.4.x+ 
+============================================
+
+Title: QuakeStyle Unbound: Weapon Wheel Add-on
+Filenames: qsub-WeaponWheel.pk3
+Authors: Brian "That Blind Guy" Willis, and gleasspty
+Email Addresses: briancwillis2010@yahoo.com
+Misc. Author Info: gleasspty did 99% of the work. I just adapted it for use with Unbound. -Brian
+
+Description: A nice spinny wheel menu thing to select and use weapons and items in QuakeStyle Unbound.
+
+Additional Credits to: 
+			  Xterra, SilentZorah, Bathy Salts, TehNems, and BigBenkei for beta testing
+			  See Credits.txt inside the pk3 file for additional credits
+
+================================================================
+
+* Play Information *
+
+Game: DOOM, DOOM II, Final Doom
+Episode and Level # : All
+Single Player: Yes, recommended
+Cooperative 2-4 Player: Yes
+Deathmatch 2-4 Player: Yes
+Difficulty Settings: No
+New Sounds: Yes
+New Graphics: Yes
+New Music: No
+Demos Replaced: None
+
+* Construction *
+
+Base: Xterra and TBG's QuakeStyle Unbound, gleasspty's Weapon Wheel mod, the full version of which contains support for vanilla and a wide variety of popular mods including Project Brutality and Russian Overkill.
+Editors used: SLADE 3, GDCC-ACC, NotePad++
+Known Bugs: 
+-None at the moment. Let me know if you find anything.
+
+* KEYCONF and MENUDEF Information *
+
+Open Weapon Wheel
+Rotate Weapon Wheel Clockwise
+Rotate Weapon Wheel Counter-Clockwise
+Open Item Wheel
+Rotate Item Wheel Clockwise
+Rotate Item Wheel Counter-Clockwise
+
+You'll also find a configuration submenu for this mod in the gameplay settings menu. This will appear at the top in GZDoom 2.4 and the bottom in all further versions.
+
+* Copyright / Permissions *
+
+The same MIT license terms that apply to the original mod apply to this, so I would suggest you start at gleasspty's ModDB page for the original work and go from there.
+
+* Credits *
+
+Again, see Credits.txt.
+
+* Where to get this WAD *
+
+Jay's website:
+http://zorasoft.net/

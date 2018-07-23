@@ -1,0 +1,54 @@
+============================================
+   Advanced Engine Required: GZDoom 2.4.x+ 
+============================================
+
+Title: Anthology Monster Pack (AMP) Add-On
+Filenames: qsub-AMP.pk3
+Author: Brian "That Blind Guy" Willis (modder, beta tester for QuakeStyle ZX and DoomZone, and current co-author of QuakeStyle Unbound)
+Email Address: briancwillis2010@yahoo.com
+Misc. Author Info: Quake is in the title, so we need Quake monsters! This mod will NOT work without QuakeStyle Unbound.
+
+Description: Monster Closet adds 39 new monsters (including 2 bosses) to the already extensive bestiary of QuakeStyle Unbound. The vast majority of these are from Quake and Quake 2, with a couple from Quake 4.
+
+Additional Credits to:
+			  DBThanatos and Michaelis for Quake Champion: Doom Edition
+			  SilentZorah, Bathy Salts, TehNems, and BigBenkei for beta testing
+			  id Software for Quake, Quake II, Quake III, Quake IV, DOOM, and some sprites and sounds.
+			  The good folks at zdoom.org's forums who've put up with our insane (and sometimes inane) questions
+			  Randi Heit for the godlike ZDoom (may it rest in peace)
+			  Graf Zahl for DECORATE and the godlike GZDoom
+			  DRD Team for the repository builds of ZDoom, QZDoom and GZDoom
+			  SilentSorah and Xterra for QuakeStyle and QuakeStyle ZX
+			  Pretty much anybody who's written anything useful for the ZDoom wiki (lifesavers, you are)
+			  You, for actually wasting your time playing our little mod
+
+================================================================
+
+* Play Information *
+
+Game: DOOM, DOOM II, Final Doom
+Episode and Level # : All
+Single Player: Yes, recommended
+Cooperative 2-4 Player: Yes, also recommended but not the mod's focus
+Deathmatch 2-4 Player: Yes, but not the mod's focus
+Difficulty Settings: No
+New Sounds: Yes
+New Graphics: Yes
+New Music: No
+Demos Replaced: None
+
+* Construction *
+
+Base: TBG and Xterra's "QuakeStyle Unbound" mod for GZDoom 2.4.x
+Editor used: Slade 3
+Known Bugs: 
+Nothing at the moment. I try to test everything exhaustively and squash bugs as I find them, but I'm sure there's something I'm missing. Let us know if you find any, and we'll take care of it as best as we can. -Brian
+
+* Credits *
+
+DBThanatos and Michaelis for Quake Champion: Doom Edition. Aside from GLDefs and DecalDefs, everything here was adapted from that.
+
+* Where to get this WAD *
+
+Jay's website:
+http://zorasoft.net/
