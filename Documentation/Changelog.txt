@@ -128,6 +128,7 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 +/-Increased the Destructor's impact and radius damage. Introduced 5.5x3-degree spread.
 =Phase Imp has new sprites and is translucent.
 =Subtractive purple light added to the Nightmare Imp to make it stand out a little better.
+-The Gunner has a weakness to nails and does less damage with them.
 
 Bugs Fixed
 -Heavy was immune to poison. Solution: List Damage Factors for each Damage Type rather than generalizing with the normal factor.
