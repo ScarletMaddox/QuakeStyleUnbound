@@ -6,18 +6,14 @@ QuakeStyle Unbound consists of three parts.
 
 3. The Weapon Wheel, qsub-WeaponWheel.pk3. Exactly what it sounds like. This contains a weapon and item selection wheel with keys to bind the controls and options in the Gameplay Settings menu to tweak it all to your liking.
 
-4. Anthology Monster Pack (AMP), qsub-AMP.pk3. Another extension to the bestiary focused on monsters from the Quake series. These monsters are integrated into the base mod and Monster Closet spawners already. If this is left out, you will get a wall of errors complaining about missing actors. Said errors can be ignored, as the mod will work just fine without them.
+NOTE: This mod is NOT compatible with software rendering, due to the extensive use of dynamic lighting and colors beyond the standard set of 256. the mod will run in software mode, but you will be missing out on a few things, namely the flashlight, and some objects won't appear quite right. Additionally, the Weapon Wheel relies on the use of key combos to check its input, namely strafe+moveup and strafe+movedown. As such, these key combos will not work normally with the Weapon Wheel in place.
 
-NOTE: This mod is NOT compatible with software rendering, due to the extensive use of dynamic lighting and colors beyond the standard set of 256. the mod will run in software mode, but you will be missing out on a few things, namely the flashlight, and some objects won't appear quite right. Additionally, the Weapon Wheel relies on the use of key combos to check its input, namely strafe+moveup/movedown. As such, these key combos will not work normally with the Weapon Wheel in place.
+After qsunbound.pk3, load the other two modules in either order.
 
-NOTE 2: If you're using AMP, you need to activate it in Mod Settings -> General before beginning a new game. This is to avert any bugs dealing with archived CVars.
+You'll find credits for the mods in the Documentation folder. For Monster Closet, each new monster is contained in its own separate archive along with credits. For classes, you'll find sprite credits in 0Sprites.wad. We are still working on credits for the base mod, but most of it is taken care of.
 
-After qsunbound.pk3, load the other three modules in any order. AMP doesn't rely on its own spawners, so you can load it after Monster Closet and still get the Monster Closet spawns. 
+On the ACS front, RECOVER, MOONBEAM, and REVOLVER belong to Jay. DBLJUMP and SIDESTEP authors can be found in their source files. SCOUTER was created by spaceman333. TNTFLOOR, BONUSES, GETAMMOS, and GETARMOR were created by me. Use them as you see fit, provided you give credit in your mod.
 
-You'll find credits for the mods in the Documentation folder. For Monster Closet, each new monster is contained in its own separate archive along with credits. For classes, you'll find sprite credits in 0Sprites.wad. We are still working on credits for the base mod.
-
-On the ACS front, RECOVER and REVOLVER belong to Jay (the second has edits by myself). Ask him if you would like to use it for your own mod. DBLJUMP and SIDESTEP authors can be found in their source files. TNTFLOOR, GETAMMOS, and GETARMOR were created by me. Use them as you see fit, provided you give credit in your mod.
-
-You'll find the email addresses of each author within qsunbound.pk3. Contact me or Xterra for questions, requests, suggestions and critiques regarding QuakeStyle ZX or Unbound, or if you'd like to send us a million dollars. Contact Jay for questions, requests, suggestions, and critiques regarding the original QuakeStyle, DOOM Gaiden, or DOOMZone or if you'd like to send him a million dollars.
+You'll find the email addresses of each author within qsunbound.pk3. Contact me or Xterra for questions, requests, suggestions and critiques regarding QuakeStyle ZX or Unbound, or if you'd like to send us a million dollars. Contact Jay for questions, requests, suggestions, and critiques regarding the original QuakeStyle, DOOM Gaiden, DOOMZone, or ZAGE, or if you'd like to send him a million dollars.
 
 -TBG

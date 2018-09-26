@@ -1,5 +1,5 @@
 ============================================
-   Advanced Engine Required: GZDoom 2.4.x+ 
+   Advanced Engine Required: GZDoom 3.2.5+ 
 ============================================
 
 Title: Monster Closet Add-On

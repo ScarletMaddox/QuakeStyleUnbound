@@ -1,8 +1,6 @@
 ============================================
-   Advanced Engine Required: GZDoom 2.4.x+ 
+   Advanced Engine Required: GZDoom 3.2.5+ 
 ============================================
-
-NOTICE: We're working to resolve a lack of proper crediting. This has been ongoing for some time, but we are still missing several. Please see the uncredited assets and contact us if any of them belong to you.
 
 Title: QuakeStyle Unbound
 Filenames: qsunbound.pk3 (including 0Sprites.wad, 1base.wad, 2tilt.wad, 3core.wad, 4snd.wad, and 5fonts.wad, plus text and source files)
@@ -16,7 +14,7 @@ Description: QuakeStyle is a gameplay mod for DOOM which adds larger enemy varie
 
 Additional Credits to: 
 			  Many, many fellow DOOMers for many sprites and sounds, much inspiration and some code (See specific credits below)
-			  Valve, Capcom, and Epic Games for sounds
+			  Valve, Capcom, Insomniac, Bungie, and Epic Games for sounds
 			  SilentZorah, Fisk Zinnemann, Bathy Salts, TehNems, Dave, Niecey, and BigBenkei for beta testing
 			  Everyone who participated in making the Monster and Weapon Resource Wads, as well as Realm667
 			  id Software for Quake, Quake II, Quake III, Quake IV, DOOM, and sprites and sounds.
@@ -51,13 +49,11 @@ Demos Replaced: None
 Base: Jay Reichard's "QuakeStyle" mod for ZDoom 2.5.x and derivatives
 Editors used: DeepSea, Adobe Photoshop, MSPaint, GameMaker Studio (namely the sprite editor), Notepad, Notepad++, ACC, GDCC-ACC, Paint Shop Pro, Audacity, XWE, SLumpEd, Slade 3, WinRAR (surprisingly useful for PK3 files...)
 Known Bugs: 
--The pistol misbehaves if dropped or taken away; to prevent such a thing happening the pistol is undroppable.
--Be careful with the "give all", "give megasphere", "give armor" or "give everything" console cheats- you'll get stock blue armor with a misaligned and incorrect icon if you don't already have better armor. Try giving yourself SZ_Megasphere, SZ_BlueArmor, or SZ_RedArmor first.
 -Certain images and sprites may look a bit off with the mod's color palette, specifically ones utilizing the lightest blues in the palette. The mod's color palette replaces the lightest, washed-out bluegrays with vivid sky blues. As such, some things may appear slightly (or not-so-slightly) off. Light reds will be rendered as shades of yellow, orange and scarlet. This also applies to some sky images-- Plutonia in particular.
 
 * Class Information *
 
-There are 16 classes total. Every class can have up to 50 weapons. With the exception of the "vanilla" Doomguy class, each has a unique starting weapon that replaces one of the normal ones. Each class also has different stats such as size, speed, jump height, and specific damage output and defense for certain attacks. Some also feature special abilities like full health regeneration, poison resistance, or getting more ammo from pickups. See the list below for more details.
+There are 16 classes total. Every class can have up to 51 weapons. With the exception of the "vanilla" Doomguy class, each has a unique starting weapon that replaces one of the normal ones. Each class also has different stats such as speed, jump height, and specific damage output and defense for certain attacks. Some also feature special abilities like full health regeneration, poison resistance, or getting more ammo from pickups. See the list below for more details.
 
 Doomguy (Base Class): This is the basic, almost totally unaltered player character, preserved for those who would like to play as a plain ol' Doomguy. The only difference is he gets green armor, a knife replacing fists (applies to all classes), and the improved air control.
 Unique Weapon: None
@@ -66,7 +62,7 @@ Defense: Default
 Special Attributes: None. He has all default stats, no strengths or weaknesses, or anything along those lines.
 
 Veteran: A general enhancement of the original Doomguy, inspired by Wolfenstein. He can jump a bit higher and resist a wide variety of attacks.
-Unique Weapon: Twin Pistols (Faster fire rate but less damage than the Pistol. Alt-fire throws a hand grenade. More grenades can be found in boxes of bullets, nails, grenades, and rockets. Two grenades are given in each backpack. You can carry five, and this does not increase. Combo fire throws a holoknife.)
+Unique Weapon: Twin Pistols (Faster fire rate but less damage than the Pistol. Alt-fire throws a hand grenade. More grenades can be found in boxes of bullets and grenades. Two grenades are given in each backpack. You can carry five, and this does not increase. Combo fire throws a holoknife.)
 Attack Power: Default
 Defense: Demonic +15%, Fire +15%
 Special Attributes: None
@@ -74,7 +70,7 @@ Special Attributes: None
 Hunter: A more lightweight complement to the Ranger. Fast, but fragile.
 Unique Weapon: Ghost (Silenced shotgun. Can perform sneak crits, is slightly more accurate, and doesn't alert monsters, but damage is the same. Combo fire throws a holographic target dummy to attract monsters. This will explode after ~15 seconds. It can be used infinitely, but only one can be in play at a time.)
 Attack Power: All +20%
-Defense: All +25%
+Defense: All -25%
 Special Attributes: None
 
 Ranger: Big and tough, but not very fast or agile.
@@ -83,16 +79,16 @@ Attack Power: Default
 Defense: All +12.5%
 Special Attributes: Sharpshooter (Accuracy +35%, some weapons have perfect accuracy, but lose fire rate)
 
-Specialist: Movement is the name of the game with this one. He's got a little extra defense to cope with his size.
-Unique Weapon: Vance (An MP7 SMG inspired by Half-Life 2. Increased fire rate and damage. Alt-fire fires mine darts instead of birdshot. Combo fire performs the Gravity Gun's primary fire.)
+Specialist: Movement is the name of the game with this one. He's got a little extra defense as well, but it's minimal.
+Unique Weapon: Vance (An MP7 SMG inspired by Half-Life 2. Increased fire rate and damage. Alt-fire fires mine darts instead of birdshot. Combo fire performs the Gravity Gun's primary fire, shoving back just about anything smaller than a Hell Knight.)
 Attack Power: Default
 Defense: +5%
 Special Attributes: Acrobatics (Able to dash, air-dash, and double-jump, dashing gives 6% charge to the Static Cannon)
 
 Gunslinger: A skilled exhibition shooter with a fondness for guns new and old.
-Unique Weapon: Wastelander (A single-barrel, break-action shotgun. Much slower and less accurate than the Shotgun, but it packs a hell of a punch! Alt-fire produces a spread of non-superheated flak shards that can bounce off surfaces. Combo fire Bioshock-esque electro-buck.)
+Unique Weapon: Wastelander (A single-barrel, break-action shotgun. Much slower and less accurate than the Shotgun, but it packs a hell of a punch! Alt-fire produces a spread of non-superheated flak shards that can bounce off surfaces. Combo fire Bioshock-esque electro-buck that can stun targets.)
 Attack Power: Bullets +25%, Plasmatic +25%, Explosives -35%, Energy -35%
-Defense: All +15%
+Defense: All -15%
 Special Attributes: None
 
 Sniper: Fast, small, hard to detect. Beware his miserable defense.
@@ -121,9 +117,9 @@ Special Attributes: None
 
 Gunner: More versatile and agile than a Heavy, and with the same dash, but with less speed and no invulnerability period.
 Unique Weapon: Ripley (A custom HAMR with greater fire rate. Alt-fire is a flamethrower instead of a plasma torch. No combo fire.)
-Attack Power: Default
-Defense: All +20%, Bullets +40%
-Special Attributes: HP +25. Soldier of Fortune (Find more ammo in mags and boxes), Speed Booster (A 5-second burst of speed with a 30-second recharge time).
+Attack Power: Nails -35%
+Defense: All +20%, Bullets +40%, Nails -35%
+Special Attributes: HP +25. Soldier of Fortune (Find more ammo in mags and boxes), Speed Booster (A 5-second burst of speed with a 30-second recharge time), Dash.
 
 Marksman: A light and fragile fighter, but he knows how to work that overpenetration to his advantage.
 Unique Weapon: Rapier (A DRM whose shots rip through targets like a Railgun but do less damage. Alt-fire is a roundhouse kick that damages everyone around him. Combo fire sacrifices the ripping effect of the plasmatic rounds for automatic fire.)
@@ -132,12 +128,12 @@ Defense: All -12.5%
 Special Attributes: Crack Shot (40% more bullet puffs fired from overpenetrating weapons, rippers do 25% more damage), custom Railgun (Zoomed shots gain an explosive edge)
 
 Medic: Not the best suited for combat, but he is no pushover.
-Unique Weapon: Schabbs (A needle gun that perforates targtes with a swarm of projectiles. Alt-fire launches three super-heated needles at once. Combo wildly sprays flechettes.)
+Unique Weapon: Schabbs (A needle gun that perforates targets with a swarm of projectiles. Alt-fire launches three super-heated needles at once. Combo wildly sprays flechettes.)
 Attack Power: Default
 Defense: All -12.5%
 Special Attributes: Triage (Full Health Regen, Poison Immunity).
 
-Demolition: Trained in the use of explosives, he has been blown up so many times that he seems to have built up a natural resistance to it. Be warned, he is a bit slow and has little in the way of added defense.
+Demolitionist: Trained in the use of explosives, he has been blown up so many times that he seems to have built up a natural resistance to it. Be warned, he is a bit slow and has little in the way of added defense.
 Unique Weapon: Trident (A homing missile launcher that fires in bursts of three. Alt-fire is a napalm shotgun. Combo releases a napalm rocket that leaves flames in its wake.)
 Attack Power: Explosives +25%, Energy -35%, Unmaker -50%
 Defense: Explosives +25%, Fire +50%
@@ -152,7 +148,7 @@ Special Attributes: None
 Slipgater: Because one id Software protagonist isn't enough and two is too low. Besides, the mod is called QuakeStyle! He behaves very much like the Marine, but is slightly more agile.
 Unique Weapon: ETF Rifle (A double-barrel nail carbine that fires lava nails at a reasonable rate. Alt-fire is a zoomed double-tap. Pressing reload toggles ETF Mode. When active, both primary and alt-fire will produce explosive-tipped flechettes that force splash damage.)
 Attack Power: Nails +25%
-Defense: Nails +25%, Bullets -15%, Demonic -15%
+Defense: Nails +25%, All -10%, Bullets -25%, Demonic -25%
 Special Attributes: Big Balls (-20% number of pellets fired from shotguns with roughly +50% damage)
 
 * Weapon Information *
@@ -170,6 +166,10 @@ Combo: Mighty Boot - A fast kick performed while the Axe is pulled back.
 Chainsaw: A huge, bloodstained DOUBLE-BLADED chainsaw. I've got three words for you: "RIP AND TEAR".
 Alt: Overdrive - Rapidly burn Cells to deal twice the damage per hit at twice the speed.
 Combo: Razor-Jackoff - Lower the saw and send out a sawblade that rips through targets.
+
+Yamato: Notibura Kage in all but name! Quicker than the Axe, stronger than the Knife. Quicker than the Knife too. It's just better in every way. Hold the fire key for alternating left and right slashes.
+Alt: Air Slash - Spend a small amount of health for a powerful ranged attack. Send out a blade of pure energy to cut through crowds of demons! It has a brief windup, but...
+Combo: Finishing Touch - Hold the alt-fire key during your second consecutive slash to perform an air slash with no delay. A stylish three-hit combo!
 
 Pistol: Your standard sidearm. Fires a tiny bit slower than the vanilla Pistol, but it has no damage RNG and hits quite hard.
 Alt: Aimed Shot - Zoom in a little and take careful shots. These are slower shots, but much more accurate and a bit more powerful.
@@ -388,7 +388,7 @@ Invulnerability Sphere: Invulnerability for 30 seconds.
 
 * Monster Information *
 
-There are 77 monsters in this mod. Each vanilla monster is replaced with a random monsters spawner containing a subset of these. The Revenant spawner has been repurposed as a 4th-tier zombie spawner, producing enemies carrying powerful weapons such as the HAMR, Plasma Rifle, Rialgun, and BFG9000. Revenants themselves have been grouped with Hell Knights in their spawner. Aside from that, you'll find monsters of roughly the same level of challenge as their vanilla counterparts on each spawner.
+There are 74 monsters in this mod. Each vanilla monster is replaced with a random monsters spawner containing a subset of these. The Revenant spawner has been repurposed as a 4th-tier zombie spawner, producing enemies carrying powerful weapons such as the HAMR, Plasma Rifle, Rialgun, and BFG9000. Revenants themselves have been grouped with Hell Knights in their spawner. Aside from that, you'll find monsters of roughly the same level of challenge as their vanilla counterparts on each spawner.
 
 * KEYCONF and MENUDEF Information *
 
@@ -417,7 +417,7 @@ Weapon State 4 - Drop Secondary Ammo (Large)
 
 You'll find these in the Controls section of Mod Settings.
 
-Additionally, there is a General section of the menu for selecting your HUD style (see below) and adjusting monster health display and how fast you need to double-tap a direction to dash.
+Additionally, there is a General section of the menu for selecting your HUD style (see below) and adjusting monster health/item display and how fast you need to double-tap a direction to dash. If you are using the AMP extension, the settings for that will appear here as well.
 
 * HUD Styles *
 
@@ -465,8 +465,15 @@ Fast, weak, respawning monsters with maximum aggro that infight without restrict
 
 A side note: if you play with respawning monsters, each respawn re-shuffles that spawn point (i.e., you could get an SSG guy at the Shotgunner Spawner when the level initially loads, but he may respawn as a Rifle Zombie or Beheaded Kamikaze). If you run into a BFG Guy or Unmaker Guy at any point, don't worry. Odds are good that won't happen next respawn.
 
-Additionally, for those of you concerned with 100% completion, it's still absolutely doable for kills and secrets. I believe I have worked out a solution for items, but as this is a very complex mod, it needs more testing to be certain.
--Brian
+* 100% Completion *
+
+In this mod, you will find being a completionist pays handsomely.
+
+For 100% items, you will receive points toward unlocking new weapons. Currently, this only serves to easy the load of some spawners, moving weapons like the Revolver and Vanguard to being rewards instead of random occurrences. In future versions, this will be used to reward the player with guest weapons and original creations.
+
+For 100% kills, your health will be increased by 5 points. After 20 of these upgrades, blue health bonuses will overheal to 300 health. Because of this, the adrenaline powerup has been removed.
+
+For 100% secrets, you will gain a random bonus to all ammo types. These range in value from half a small pickup to half a large pickup, rounded up. For instance, Rifle Rounds received will be between 3 and 10. Future versions will adapt this to cater to eah class.
 
 Lastly, we'd like to apologize for the lack of appropriate credit in earlier versions of QuakeStyle and QuakeStyle ZX that carried over to this mod. We are working to fix that issue, as visible below.
 
@@ -506,10 +513,10 @@ Chaingun: id/Xaser/Skulltag team
 Carrion Cannon: Combine_Kegan (sprites), Lavender and Resident Evil 5 (idea)
 Vanguard: Lord Smash, zrrion the insect, MagmaCow
 HAMR: Unknown, uploaded by HellCattX (please claim if yours!)
-Grenade Launcher: Skulltag team/Epic Games
+Grenade Launcher: Skulltag team/Epic Games/Rogue Entertainment
 Napalm Launcher: Eriance (with edits by Xterra)
 Prox Mine Launcher: Eriance/3D Realms
-Ion Ripper: ShadesMaster/JoeyTD
+IonRipper: ShadesMaster/JoeyTD
 Phalanx: Zrrion the Insect (with edits by Xterra)
 Railgun: osjclatchford/3D Realms/SilentZorah
 Plasma Rifle: id/Per Kristian Risivik
@@ -531,7 +538,7 @@ Electro-Driver: Stuart Godbolt
 Sparqbeam: Ryan Polczer (with edits by Xterra and TBG)
 "Vanguard" Rivet Gun: Lord Smash/zrrion the insect/MagmaCow
 Twin Pistols: OSJClatchford, Eriance, silentzorah (edit)
-Throwing Knife: Unknown
+Throwing Knife: Unknown (Taken from WRW)
 Hand Grenade: Xim, Froon, NeoWorm, Lobotomy Software
 UAC Precision Rifle: BadMojo
 "Sasha" plasmatic chaingun: Midway/Cage/Almonds
@@ -572,24 +579,25 @@ Railgunner: Ghastly Dragon, Xim, Fuzzballfox, Tormentor667
 Unmaker guy: Xim
 Nightmare demon: AgentSpork
 Mechademon: Skulltag team, NeoWorm, Vader
-Fiend: Skulltag team, Eriance
+Spitter: Skulltag team, Eriance
 Stone demon: Jimmy, Eriance
-Mecha-Fiend: Neoworm, Vader, Eriance, hnsolo77, Skulltag team
+Retch: Neoworm, Vader, Eriance, hnsolo77, Skulltag team
+Nukage Imp: Dutch Devil
 Dark imp: unknown
 Phase imp: id Software, Raven Software, Eriance
 Duo imp: Nanami
 Nightmare imp: Vader
 Petrified imp: Espi, Vader, MidoriMan
-Wraith: Unknown
+Wraith: Eriance, Dreadopp
 Vulgar: Eriance
 Maggot: Vader
 Forgotten One: Captain Toenail
 Incubus: Unknown
-Nightmare caco: Tormentor667
+Nightmare Caco: Tormentor667
 Arachnorb: Jimmy91, YuriTheHairFan
 Arachnotron MKII: Tormentor667, Captain Toenail
 Deathnaught: Eriance
-Hell warrior: Unknown
+Hell Warrior: Vader
 Cybaron: Eriance
 Afrit: Espi, Ebola
 Pyrodemon: Eriance, Maelstrom 
@@ -602,16 +610,20 @@ Nazis: Fox666/BigDaveHadSomeToo/MagicWazard
 
 * Powerups *
 Quad Damage: Skulltag team (with edits by Xterra)
-Double Damage: unknown
-DualFire Damage: unknown
-Regensphere: Scalliano (with edits by Xterra)
-Ammosphere: Dreadopp (with edits by Xterra)
-Armorsphere: Lucario (with edits by Jay)
-Gigasphere: Eriance
-Tarasphere: Captain Toenail
-Biosphere: Captain Toenail
-Lifesphere: Scalliano (with edits by Jay)
-Haste Sphere: Unknown (with edits by Xterra)
+Double Damage: Skulltag Team
+DualFire Damage: Skulltag Team
+Blood Sphere: Scalliano (with edits by Xterra)
+AmmoSphere: Dreadopp (with edits by Xterra)
+ArmorSphere: Lucario (with edits by Jay)
+GigaSphere: Eriance
+TeraSphere: Captain Toenail
+BioSphere: Captain Toenail
+LifeSphere: Scalliano (with edits by Jay)
+Haste Sphere: Scalliano (with edits by Xterra)
+Field Medkit: ghastly_dragon
+Armor Repair Kit: Unknown
+Power Armor: ghastly_dragon
+Mega Map: Captain Toenail
 
 * Code *
 Auto Shotgun: JoeyTD
@@ -621,15 +633,19 @@ Beheaded Kamikaze: Captain Toenail
 Screen tilting script and gore: Nash Mulhandes
 
 * Other *
+Plasma Trails (and recolors): SilentZorah
+Armor Icons: ARM Community (edits by TBG)
 Destroyable light decorations: Kinsie
 Remastered DOOM sounds: Per Kristian Risivik
 Fonts: Jimmy
-Monster health and armor drops: Kensey
+Added text colors: FuzzballFox
+Monster health and armor drops: Kinsie
 Flashlight: 
 Monster health display: spaceman333
+For further ACS credits, see the source files.
 
 * Note *
-If we haven't credited you properly for a sprite, code or somesuch, you want something of yours removed from the mod, or you know who created some imported code or audiovisual aspect of this mod, -PLEASE- email and let Brian, Xterra, or Jay know- it'll be fixed in the next release.
+If we haven't credited you properly for a sprite, code or somesuch, you want something of yours removed from the mod, or you know who created some imported code or audiovisual aspect of this mod, please email and let Brian, Xterra, or Jay know- it'll be fixed in the next release.
 
 * Where to get this WAD *
 

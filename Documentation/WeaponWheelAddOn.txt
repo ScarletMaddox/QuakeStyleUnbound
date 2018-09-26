@@ -1,5 +1,5 @@
 ============================================
-   Advanced Engine Required: GZDoom 2.4.x+ 
+   Advanced Engine Required: GZDoom 3.2.5+ 
 ============================================
 
 Title: QuakeStyle Unbound: Weapon Wheel Add-on
@@ -45,7 +45,7 @@ Open Item Wheel
 Rotate Item Wheel Clockwise
 Rotate Item Wheel Counter-Clockwise
 
-You'll also find a configuration submenu for this mod in the gameplay settings menu. This will appear at the top in GZDoom 2.4 and the bottom in all further versions.
+You'll find these settings and a configuration submenu for this mod in Mod Settings->Weapon Wheel.
 
 * Copyright / Permissions *
 
