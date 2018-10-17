@@ -20,6 +20,10 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 +Vulgars fire three slime balls directly at their target at long range.
 +Catharsi fire fast shots at long range.
 +Greatly increased the carry capacity and ammo consumption for Carrion.
+=Energy projectiles create more trail and debris particles.
+=Dark Matter Cannon primary trail is fainter and longer.
+=Shotgun fire and up sounds have been changed.
+=Unique names given to most weapons that didn't already have them.
 
 Bugs Fixed
 -Monsters would only fire bullets straight ahead. Solution: Change CMF_AIMDIRECTION to CMF_OFFSETPITCH.
