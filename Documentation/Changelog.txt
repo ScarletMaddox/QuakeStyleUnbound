@@ -24,6 +24,9 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 =Dark Matter Cannon primary trail is fainter and longer.
 =Shotgun fire and up sounds have been changed.
 =Unique names given to most weapons that didn't already have them.
++Cacos and Pain Elementals will float up when you get close to them.
++Grell balls slow the target to 25%.
+-Plague's pain chance increased to 200.
 
 Bugs Fixed
 -Monsters would only fire bullets straight ahead. Solution: Change CMF_AIMDIRECTION to CMF_OFFSETPITCH.
