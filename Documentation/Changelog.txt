@@ -1,6 +1,10 @@
 ADDITIONS
 General:
 -Carrion Bottle worth 25 Carrion. Spawns with Medikits.
+-Option to toggle weapon spawns, weapon drops, and gibbing bonuses in Mod Settings->General.
+-Descriptions of every weapon.
+-A Mod Info menu containing the help screen, class info, and weapon descriptions.
+-Map completion ranks have been added to the intermission screen.
 
 Monsters:
 
@@ -26,9 +30,47 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 =Unique names given to most weapons that didn't already have them.
 +Cacos and Pain Elementals will float up when you get close to them.
 +Grell balls slow the target to 25%.
--Plague's pain chance increased to 200.
+-Plague's pain chance increased to 200 and they do not fire poison rockets until their health is below 200. Health reduced to 600.
++Nightshades can fly and will float up if the player gets close. To make them easier to see, they are fullbright until killed.
++Artisan summons only appear directly in front of him.
++Blot no longer leaps, but does constant radius damage and fires silent projectiles.
++Catharsi drops Carrion Bottles.
++/-Stun period doubled. NOPAIN flag activates when stunned. Variable light sizes added.
++Nightmare Imps throw a homing ball and fast ball when above half health.
++Dark Imps throw only fast balls.
++Dark Cacodemon health increased from 400 to 600.
+-Removed Brains' ice death.
+-Fiend, Mutant, and Shambler melee damage reduced.
+-Stun states given to monsters that were missing them.
+-Reduced Catharsi's health from 120 to 60.
++Health and armor bonuses and TNT's "SpecialInvuln" item spawned into the map when it loads are the only items that count toward item percentage.
++/-Plague fires fewer poison rockets. Health reduced from 800 to 600. Lingering toxin effect added to poison rockets.
++XDeath states added to numerous monsters.
+=Several Quake monsters gained the NOBLOOD flag.
+-SSG Guy fires in a much looser spread of 11x8 degrees.
++Rocket Launcher Guy fires Revenant rockets at 1/4 health.
+-Enemy homing missiles can be shot down. This does not apply to homing Imp balls and the like, with the exception of Vore projectiles. Firing angles have been adjusted to prevent collisions. Revenant, Cyberdemon, Annihilator, and Plague now fire fire groups of missiles at 45-degree angles.
+=Dropped health potions use FreeDOOM's flask sprites.
+=Casings and gore will fade out over time instead of just instantly vanishing.
+-Spearheader fires 3 fewer nails, has only 60 health instead of 130, and his fire rate is slowed.
+-Numerous monsters have received a significant cut in melee damage.
+-Volacubus only fires napalm on its 6th consecutive shot.
+-Marksman has a COIL Pistol and 50 cells instead of a Peacemaker and 36 bullets.
++Wraiths can pass through walls when invisible.
++Poison soul clouds inflict radius damage, but much less ripping damage.
++Cleaver Zombie has triple health, but no longer enters FastChase.
++Tusken health increased from 100 to 450 and turns friendly below 350.
+=Grenades and rockets fired by Quake monsters, and Spawn's death animation, use Doom-style explosions.
++Players will enter maps invulnerable until they move or attack.
++Pain Elementals fire Afrit balls and comets occasionally.
++Imps can throw fast Catharsi balls at long range.
++Nailborgs fire continuously until line of sight is broken or until they use their alt-fire.
++"Phobos" IonRipper altfire and combo ammo consumption reduced to 10 and 15 respectively.
++Electro-Driver shuriken bounce off of floors and ceilings.
+
 
 Bugs Fixed
 -Monsters would only fire bullets straight ahead. Solution: Change CMF_AIMDIRECTION to CMF_OFFSETPITCH.
+-Time Imp was dropping the wrong item when gibbed. Solution: Change SZ_RedArmor to SZ_RedPickup.
 
 Documentation
