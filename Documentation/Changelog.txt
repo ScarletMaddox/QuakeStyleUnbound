@@ -67,7 +67,7 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 +Nailborgs fire continuously until line of sight is broken or until they use their alt-fire.
 +"Phobos" IonRipper altfire and combo ammo consumption reduced to 10 and 15 respectively.
 +Electro-Driver shuriken bounce off of floors and ceilings.
-
+=Custom crosshairs added for each weapon.
 
 Bugs Fixed
 -Monsters would only fire bullets straight ahead. Solution: Change CMF_AIMDIRECTION to CMF_OFFSETPITCH.
