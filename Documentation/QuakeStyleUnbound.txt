@@ -554,11 +554,47 @@ Yamato: osjclatchford/Mike12/Eriance/3DRealms/GhostKillahZero
 "Vance" PDW: Cage/Raziel236 (with edits by Jay)
 "Ripley" HSW: osjclatchford/DoomNukem/Carbine Dioxide (with edits by Jay)
 "Rapier" plasmatic DMR: DoomNukem/Skulltag team (with edits by Jay)
-"Ironside" mace and shield: PillowBlaster/Hexereticdoom
 "Nutcracker" Hexa-Shotgun: Russell Pearson/Creators of Legendary's Complex AddOn for Complex Doom (I don't know who to credit for the gun sprites. -TBG)
+Absolution: OSJClatchford
+Banshee: SGT Shivers (with edits by Xterra)
+Befouler: GAA1992/Freedoom team/Banjo Software (with edits by Xterra)
+Capek: CaptainJ/Vostyok/Railgunner (with edits by Jay and Xterra)
+Carnifex: Amuscaria/Gothic/Blox/Mor'ladim (with edits by Xterra)
+Halberd: Apogee/3D Realms
+Overwatch: Justin Fisher (with edits by Xterra)
+Romero: Midway/XLightningStormL/Carbine Dioxide (with edits by Jay)
+Stauffenbergs: Marty Kirra/Apogee (with edits by Xterra)
+Ironside: NeoWorm/Bethesda/Marty Kirra/Amuscaria/PillowBlaster
+Ol' Painless: Unknown, taken from Russian Overkill
+Gyrojet: Amuscaria
+Cocytus: Daniel? (with edits by Xterra)
+R.Y.N.O.: Amuscaria (with edits by Xterra)
+Demon Heart: Zrrion/Uboa/Minigunner/3D Realms
+Zephyr: id Software/Minigunner/PillowBlaster
+Event Horizon: Freedoom
+Predator Mine Launcher: Eriance/Mechadon/KDiZD Team
+Handcannon: Doomer1
+Tiamat: Raven Software/Eriance
+Bearcat: Captain J/SilentZorah
+Slayer: Captain J/SilentZorah
+Hawkeye: id Software
+Carla: PillowBlaster/DoomNukem/YukesVonFaust/Toby Arnold (RE:CB Team)/SureShot/Mr. Enchanter/Xterra
+Helot: Fuzzyblaze/id Software/FreeDoom Team/Xterra/PillowBlaster
+Scylla: Eriance
+Argath: Rogue Entertainment/silentzorah (color edit)
+Buzz Blades: GhostKillahZero/silentzorah/3D Realms
+Natascha: Neccronixis
+SKH-2 Sturmkanone:
+Streetsweeper: id/Williams/Jazzmaster9/SGT MarkIV/Doomguy5th (with edits by Xterra)
+Animus: Mike12
+Blitz Cannon: Apogee/Xterra
+Frecciarossa: Fulsam/Bethesda
+Sentinel Glove: Rogue Entertainment/PillowBlaster/DBThanatos/Michaelis
+Vile Hand: Raven Software/RockstarRaccoon
+
 
 * Enemies *
-Pistol guys: Unknown
+Pistol guys: OSJClatchford
 Blaster guy: Unknown
 Rifle guy: NMN, Tormentor667
 Auto shotgun guy: Unknown
@@ -640,7 +676,7 @@ Remastered DOOM sounds: Per Kristian Risivik
 Fonts: Jimmy
 Added text colors: FuzzballFox
 Monster health and armor drops: Kinsie
-Flashlight: 
+Flashlight: Alando1/osjclatchford/Eriance/id/3D Realms
 Monster health display: spaceman333
 For further ACS credits, see the source files.
 

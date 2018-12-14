@@ -70,9 +70,10 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 =Custom crosshairs added for each weapon.
 +Vanguard combo fires hitscan nails.
 =Kill, item, and secret completion displays added to the detailed and fancy HUDs.
++Weapon wheel shows ammo and icon of selected weapon.
 
 Bugs Fixed
 -Monsters would only fire bullets straight ahead. Solution: Change CMF_AIMDIRECTION to CMF_OFFSETPITCH.
 -Time Imp was dropping the wrong item when gibbed. Solution: Change SZ_RedArmor to SZ_RedPickup.
-
+-The weapon wheel screen filter would fail to cover the entire screen if the player had too many weapons. Solution: Make the filter graphic unscaled in the ACS code.
 Documentation
