@@ -71,6 +71,16 @@ CHANGES (+ for buffs, - for nerfs, = for aesthetic changes)
 +Vanguard combo fires hitscan nails.
 =Kill, item, and secret completion displays added to the detailed and fancy HUDs.
 +Weapon wheel shows ammo and icon of selected weapon.
++Gave pistols to every class.
++Colt .45 and Silenced 92FS fire rates increased.
+=Rearranged completion rewards. Kills now give weapons, items now give ammo bonuses, and secrets now give health upgrades.
++/-BloodSphere power increased to 25%, time decreased to one minute. 
+-Silver Knight's health has been reduced from 300 to 160. Homing projectiles turn slower.
+-Stone enemies no longer resist splash damageand are weak to explosives and melee.
+-Shotgun Grunt damage reduced, spread increased from 8x8 to 20x20 (he's on the Zombieman slot and hitting like an SSG Guy. What was I thinking there?!)
++Knight health increased from 150 to 200.
+=Doomguy (Base Class) name changed to Marine.
+=Rewored all of the DoomEdNums to be more organized. Sorry if anyone made maps with the mod and this breaks them.
 
 Bugs Fixed
 -Monsters would only fire bullets straight ahead. Solution: Change CMF_AIMDIRECTION to CMF_OFFSETPITCH.
